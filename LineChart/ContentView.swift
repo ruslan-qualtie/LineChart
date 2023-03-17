@@ -66,7 +66,7 @@ struct ContentView: View {
                         }
                     }
                 }
-                // LineChart(dataSource: dataSouce)
+//                LineChart(dataSource: dataSouce)
                 SwiftUILineChart(dataSource: dataSouce)
 //                Group {
 //                    if #available(macOS 13, *) {
