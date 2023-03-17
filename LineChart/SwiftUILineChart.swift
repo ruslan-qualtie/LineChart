@@ -60,6 +60,7 @@ struct SwiftUILineChart: View {
                 .symbolSize(by: .value("Line", line.name))
                 .foregroundStyle(by: .value("Line", line.name))
                 .lineStyle(by: .value("Line", line.name))
+                // .interpolationMethod(.catmullRom)
             }
             if isDragging {
                 RuleMark(

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C341286E29C49AD90079300B /* PointMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341286D29C49AD90079300B /* PointMarkExampleView.swift */; };
+		C341287029C4B0D60079300B /* AreaMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341286F29C4B0D60079300B /* AreaMarkExampleView.swift */; };
+		C341287229C4B61C0079300B /* BarMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341287129C4B61C0079300B /* BarMarkExampleView.swift */; };
+		C341287429C4C2CC0079300B /* RectangleMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341287329C4C2CC0079300B /* RectangleMarkExampleView.swift */; };
+		C341287729C4CA360079300B /* LineMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341287629C4CA360079300B /* LineMarkExampleView.swift */; };
+		C341287929C4DB650079300B /* RuleMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341287829C4DB650079300B /* RuleMarkExampleView.swift */; };
 		C380AFAB29BF5DA1000C9B27 /* BarChartStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFAA29BF5DA1000C9B27 /* BarChartStatView.swift */; };
 		C380AFAD29BF5DE1000C9B27 /* BarChartStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFAC29BF5DE1000C9B27 /* BarChartStat.swift */; };
 		C380AFAF29BF5E16000C9B27 /* FormattedResultDelta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFAE29BF5E16000C9B27 /* FormattedResultDelta.swift */; };
@@ -35,6 +41,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C341286D29C49AD90079300B /* PointMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointMarkExampleView.swift; sourceTree = "<group>"; };
+		C341286F29C4B0D60079300B /* AreaMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaMarkExampleView.swift; sourceTree = "<group>"; };
+		C341287129C4B61C0079300B /* BarMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarMarkExampleView.swift; sourceTree = "<group>"; };
+		C341287329C4C2CC0079300B /* RectangleMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleMarkExampleView.swift; sourceTree = "<group>"; };
+		C341287629C4CA360079300B /* LineMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineMarkExampleView.swift; sourceTree = "<group>"; };
+		C341287829C4DB650079300B /* RuleMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleMarkExampleView.swift; sourceTree = "<group>"; };
 		C380AFAA29BF5DA1000C9B27 /* BarChartStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartStatView.swift; sourceTree = "<group>"; };
 		C380AFAC29BF5DE1000C9B27 /* BarChartStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartStat.swift; sourceTree = "<group>"; };
 		C380AFAE29BF5E16000C9B27 /* FormattedResultDelta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedResultDelta.swift; sourceTree = "<group>"; };
@@ -75,6 +87,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C341287529C4C8C40079300B /* MarkExamples */ = {
+			isa = PBXGroup;
+			children = (
+				C341286F29C4B0D60079300B /* AreaMarkExampleView.swift */,
+				C341287629C4CA360079300B /* LineMarkExampleView.swift */,
+				C341286D29C49AD90079300B /* PointMarkExampleView.swift */,
+				C341287329C4C2CC0079300B /* RectangleMarkExampleView.swift */,
+				C341287829C4DB650079300B /* RuleMarkExampleView.swift */,
+				C341287129C4B61C0079300B /* BarMarkExampleView.swift */,
+			);
+			path = MarkExamples;
+			sourceTree = "<group>";
+		};
 		C380AFA929BF5D8B000C9B27 /* ScanApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				C380AFA929BF5D8B000C9B27 /* ScanApp */,
+				C341287529C4C8C40079300B /* MarkExamples */,
 				DAF29AC9298D4CB00076095B /* LineChartApp.swift */,
 				DAF29ACB298D4CB00076095B /* ContentView.swift */,
 				DAF29AD8298D4FD60076095B /* LineChart.swift */,
@@ -210,6 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C341287229C4B61C0079300B /* BarMarkExampleView.swift in Sources */,
+				C341286E29C49AD90079300B /* PointMarkExampleView.swift in Sources */,
 				DAF29ADF298D52B40076095B /* DataSource.swift in Sources */,
 				DAF29ADD298D528E0076095B /* Date+extensions.swift in Sources */,
 				C380AFC129BF6138000C9B27 /* String+Stat.swift in Sources */,
@@ -217,6 +245,7 @@
 				C380AFBB29BF6041000C9B27 /* Color+Palette.swift in Sources */,
 				DAF29ACC298D4CB00076095B /* ContentView.swift in Sources */,
 				C380AFBF29BF60E9000C9B27 /* DeltaValueView.swift in Sources */,
+				C341287929C4DB650079300B /* RuleMarkExampleView.swift in Sources */,
 				C380AFB729BF5F87000C9B27 /* FormattedResultDelta+sample.swift in Sources */,
 				DAF29ACA298D4CB00076095B /* LineChartApp.swift in Sources */,
 				DAF29AD9298D4FD60076095B /* LineChart.swift in Sources */,
@@ -230,8 +259,11 @@
 				C380AFAB29BF5DA1000C9B27 /* BarChartStatView.swift in Sources */,
 				C380AFB129BF5E4A000C9B27 /* DeltaSignificantChange.swift in Sources */,
 				DAF29AE7298D7CA40076095B /* DotsView.swift in Sources */,
+				C341287429C4C2CC0079300B /* RectangleMarkExampleView.swift in Sources */,
 				DAF29AE3298D57BC0076095B /* LineLabelsView.swift in Sources */,
+				C341287029C4B0D60079300B /* AreaMarkExampleView.swift in Sources */,
 				DAF29AE1298D555E0076095B /* LineGridView.swift in Sources */,
+				C341287729C4CA360079300B /* LineMarkExampleView.swift in Sources */,
 				DAF29ADB298D52000076095B /* LineData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

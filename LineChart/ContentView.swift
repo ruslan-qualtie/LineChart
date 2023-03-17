@@ -66,6 +66,14 @@ struct ContentView: View {
                         }
                     }
                 }
+//                ScrollView(.vertical) {
+//                    AreaMarkExampleView()
+//                    LineMarkExampleView()
+//                    PointMarkExampleView()
+//                    RectangleMarkExampleView()
+//                    RuleMarkExampleView()
+//                    BarMarkExampleView()
+//                }
 //                LineChart(dataSource: dataSouce)
                 SwiftUILineChart(dataSource: dataSouce)
 //                Group {
