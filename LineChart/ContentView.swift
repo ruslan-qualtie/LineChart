@@ -6,25 +6,72 @@
 //
 
 import SwiftUI
+import Charts
 
 struct ContentView: View {
     var body: some View {
         Group {
             VStack(alignment: .leading, spacing: 4) {
-                Text("Jump")
-                    .font(.system(size: 16))
-                    .foregroundColor(Color("geekblue3"))
-                Text("The Jump Scan consists of a series of vertical jumps and is utilized to assess dynamic movement strategy and efficiency.")
-                    .font(.system(size: 16))
-                    .foregroundColor(.white)
-                    .lineSpacing(4)
-                Group {
-                    if #available(macOS 13, *) {
-                        SwiftUILineChart(dataSource: dataSouce)
-                    } else {
-                        LineChart(dataSource: dataSouce)
+                HStack {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Jump")
+                            .font(.system(size: 16))
+                            .foregroundColor(Color("geekblue-3"))
+                        Text("The Jump Scan consists of a series of vertical jumps and is utilized to assess dynamic movement strategy and efficiency.")
+                            .font(.system(size: 16, weight: .thin))
+                            .foregroundColor(.white)
+                            .lineSpacing(4)
+                            .tracking(0.52)
+                    }
+                    Spacer(minLength: 220)
+                    HStack(spacing: 36) {
+                        VStack(alignment: .trailing) {
+                            BarChartStatView(stat: .loadPositiveDelta)
+                            HStack {
+                                BasicChartSymbolShape
+                                    .circle
+                                    .strokeBorder(lineWidth: 2)
+                                    .foregroundColor(Color.blue)
+                                    .frame(width: 13, height: 13)
+                                Text("Load")
+                                    .font(.system(size: 14))
+                            }
+                        }
+                        VStack(alignment: .trailing) {
+                            BarChartStatView(stat: .explodeNegativeDelta)
+                            HStack {
+                                BasicChartSymbolShape
+                                    .square
+                                    .strokeBorder(lineWidth: 2)
+                                    .foregroundColor(Color.green)
+                                    .frame(width: 13, height: 13)
+                                Text("Explode")
+                                    .font(.system(size: 14))
+                            }
+                        }
+                        VStack(alignment: .trailing) {
+                            BarChartStatView(stat: .driveNoDelta)
+                            HStack {
+                                BasicChartSymbolShape
+                                    .triangle
+                                    .strokeBorder(lineWidth: 2)
+                                    .foregroundColor(Color.orange)
+                                    .frame(width: 13, height: 13)
+                                Text("Drive")
+                                    .font(.system(size: 14))
+                            }
+                        }
                     }
                 }
+//                LineChart(dataSource: dataSouce)
+                SwiftUILineChart(dataSource: dataSouce)
+//                Group {
+//                    if #available(macOS 13, *) {
+//                        SwiftUILineChart(dataSource: dataSouce)
+//                    } else {
+//                        LineChart(dataSource: dataSouce)
+//                    }
+//                }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .padding(.top, 20)
             }

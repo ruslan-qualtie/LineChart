@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C380AFAB29BF5DA1000C9B27 /* BarChartStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFAA29BF5DA1000C9B27 /* BarChartStatView.swift */; };
+		C380AFAD29BF5DE1000C9B27 /* BarChartStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFAC29BF5DE1000C9B27 /* BarChartStat.swift */; };
+		C380AFAF29BF5E16000C9B27 /* FormattedResultDelta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFAE29BF5E16000C9B27 /* FormattedResultDelta.swift */; };
+		C380AFB129BF5E4A000C9B27 /* DeltaSignificantChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFB029BF5E4A000C9B27 /* DeltaSignificantChange.swift */; };
+		C380AFB329BF5EDB000C9B27 /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFB229BF5EDB000C9B27 /* PreviewContainer.swift */; };
+		C380AFB529BF5F40000C9B27 /* BarChartStat+sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFB429BF5F40000C9B27 /* BarChartStat+sample.swift */; };
+		C380AFB729BF5F87000C9B27 /* FormattedResultDelta+sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFB629BF5F87000C9B27 /* FormattedResultDelta+sample.swift */; };
+		C380AFB929BF5FDE000C9B27 /* String+deltaFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFB829BF5FDE000C9B27 /* String+deltaFormat.swift */; };
+		C380AFBB29BF6041000C9B27 /* Color+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFBA29BF6041000C9B27 /* Color+Palette.swift */; };
+		C380AFBD29BF609C000C9B27 /* ResultDeltaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */; };
+		C380AFBF29BF60E9000C9B27 /* DeltaValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */; };
+		C380AFC129BF6138000C9B27 /* String+Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFC029BF6138000C9B27 /* String+Stat.swift */; };
+		C380AFC329BF618A000C9B27 /* DeltaChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFC229BF618A000C9B27 /* DeltaChangeView.swift */; };
 		DA14BC9829912077000CD986 /* SwiftUILineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14BC9729912077000CD986 /* SwiftUILineChart.swift */; };
 		DAF29ACA298D4CB00076095B /* LineChartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF29AC9298D4CB00076095B /* LineChartApp.swift */; };
 		DAF29ACC298D4CB00076095B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF29ACB298D4CB00076095B /* ContentView.swift */; };
@@ -23,6 +36,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C380AFAA29BF5DA1000C9B27 /* BarChartStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartStatView.swift; sourceTree = "<group>"; };
+		C380AFAC29BF5DE1000C9B27 /* BarChartStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartStat.swift; sourceTree = "<group>"; };
+		C380AFAE29BF5E16000C9B27 /* FormattedResultDelta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedResultDelta.swift; sourceTree = "<group>"; };
+		C380AFB029BF5E4A000C9B27 /* DeltaSignificantChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaSignificantChange.swift; sourceTree = "<group>"; };
+		C380AFB229BF5EDB000C9B27 /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
+		C380AFB429BF5F40000C9B27 /* BarChartStat+sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BarChartStat+sample.swift"; sourceTree = "<group>"; };
+		C380AFB629BF5F87000C9B27 /* FormattedResultDelta+sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormattedResultDelta+sample.swift"; sourceTree = "<group>"; };
+		C380AFB829BF5FDE000C9B27 /* String+deltaFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+deltaFormat.swift"; sourceTree = "<group>"; };
+		C380AFBA29BF6041000C9B27 /* Color+Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Palette.swift"; sourceTree = "<group>"; };
+		C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDeltaView.swift; sourceTree = "<group>"; };
+		C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaValueView.swift; sourceTree = "<group>"; };
+		C380AFC029BF6138000C9B27 /* String+Stat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Stat.swift"; sourceTree = "<group>"; };
+		C380AFC229BF618A000C9B27 /* DeltaChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaChangeView.swift; sourceTree = "<group>"; };
 		DA14BC9729912077000CD986 /* SwiftUILineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILineChart.swift; sourceTree = "<group>"; };
 		DAF29AC6298D4CB00076095B /* LineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF29AC9298D4CB00076095B /* LineChartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartApp.swift; sourceTree = "<group>"; };
@@ -51,6 +77,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C380AFA929BF5D8B000C9B27 /* ScanApp */ = {
+			isa = PBXGroup;
+			children = (
+				C380AFAA29BF5DA1000C9B27 /* BarChartStatView.swift */,
+				C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */,
+				C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */,
+				C380AFC229BF618A000C9B27 /* DeltaChangeView.swift */,
+				C380AFAC29BF5DE1000C9B27 /* BarChartStat.swift */,
+				C380AFB429BF5F40000C9B27 /* BarChartStat+sample.swift */,
+				C380AFAE29BF5E16000C9B27 /* FormattedResultDelta.swift */,
+				C380AFB629BF5F87000C9B27 /* FormattedResultDelta+sample.swift */,
+				C380AFB029BF5E4A000C9B27 /* DeltaSignificantChange.swift */,
+				C380AFB229BF5EDB000C9B27 /* PreviewContainer.swift */,
+				C380AFB829BF5FDE000C9B27 /* String+deltaFormat.swift */,
+				C380AFBA29BF6041000C9B27 /* Color+Palette.swift */,
+				C380AFC029BF6138000C9B27 /* String+Stat.swift */,
+			);
+			path = ScanApp;
+			sourceTree = "<group>";
+		};
 		DAF29ABD298D4CB00076095B = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +116,7 @@
 		DAF29AC8298D4CB00076095B /* LineChart */ = {
 			isa = PBXGroup;
 			children = (
+				C380AFA929BF5D8B000C9B27 /* ScanApp */,
 				DAF29AC9298D4CB00076095B /* LineChartApp.swift */,
 				DAF29ACB298D4CB00076095B /* ContentView.swift */,
 				DAF29AD8298D4FD60076095B /* LineChart.swift */,
@@ -168,11 +215,24 @@
 			files = (
 				DAF29ADF298D52B40076095B /* DataSource.swift in Sources */,
 				DAF29ADD298D528E0076095B /* Date+extensions.swift in Sources */,
+				C380AFC129BF6138000C9B27 /* String+Stat.swift in Sources */,
 				DA14BC9829912077000CD986 /* SwiftUILineChart.swift in Sources */,
+				C380AFBB29BF6041000C9B27 /* Color+Palette.swift in Sources */,
 				DAF29ACC298D4CB00076095B /* ContentView.swift in Sources */,
+				C380AFBF29BF60E9000C9B27 /* DeltaValueView.swift in Sources */,
+				C380AFB729BF5F87000C9B27 /* FormattedResultDelta+sample.swift in Sources */,
 				DAF29ACA298D4CB00076095B /* LineChartApp.swift in Sources */,
 				DAF29AD9298D4FD60076095B /* LineChart.swift in Sources */,
+				C380AFB929BF5FDE000C9B27 /* String+deltaFormat.swift in Sources */,
+				C380AFC329BF618A000C9B27 /* DeltaChangeView.swift in Sources */,
+				C380AFB329BF5EDB000C9B27 /* PreviewContainer.swift in Sources */,
+				C380AFAF29BF5E16000C9B27 /* FormattedResultDelta.swift in Sources */,
+				C380AFAD29BF5DE1000C9B27 /* BarChartStat.swift in Sources */,
+				C380AFBD29BF609C000C9B27 /* ResultDeltaView.swift in Sources */,
+				C380AFB529BF5F40000C9B27 /* BarChartStat+sample.swift in Sources */,
 				DAF29AE5298D6D1C0076095B /* LineView.swift in Sources */,
+				C380AFAB29BF5DA1000C9B27 /* BarChartStatView.swift in Sources */,
+				C380AFB129BF5E4A000C9B27 /* DeltaSignificantChange.swift in Sources */,
 				DAF29AE7298D7CA40076095B /* DotsView.swift in Sources */,
 				DAF29AE3298D57BC0076095B /* LineLabelsView.swift in Sources */,
 				DAF29AE1298D555E0076095B /* LineGridView.swift in Sources */,
