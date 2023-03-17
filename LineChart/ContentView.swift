@@ -26,44 +26,47 @@ struct ContentView: View {
                     Spacer(minLength: 220)
                     HStack(spacing: 36) {
                         VStack(alignment: .trailing) {
-                            BarChartStatView(stat: .loadPositiveDelta)
+                            BarChartStatView(stat: .loadNegativeDelta)
                             HStack {
                                 BasicChartSymbolShape
                                     .circle
                                     .strokeBorder(lineWidth: 2)
-                                    .foregroundColor(Color.blue)
+                                    .foregroundColor(.loadLine)
                                     .frame(width: 13, height: 13)
                                 Text("Load")
                                     .font(.system(size: 14))
+                                    .foregroundColor(.axisValueLabel)
                             }
                         }
                         VStack(alignment: .trailing) {
-                            BarChartStatView(stat: .explodeNegativeDelta)
+                            BarChartStatView(stat: .explodePositiveDelta)
                             HStack {
                                 BasicChartSymbolShape
                                     .square
                                     .strokeBorder(lineWidth: 2)
-                                    .foregroundColor(Color.green)
+                                    .foregroundColor(.explodeLine)
                                     .frame(width: 13, height: 13)
                                 Text("Explode")
                                     .font(.system(size: 14))
+                                    .foregroundColor(.axisValueLabel)
                             }
                         }
                         VStack(alignment: .trailing) {
-                            BarChartStatView(stat: .driveNoDelta)
+                            BarChartStatView(stat: .drivePositiveDelta)
                             HStack {
                                 BasicChartSymbolShape
                                     .triangle
                                     .strokeBorder(lineWidth: 2)
-                                    .foregroundColor(Color.orange)
+                                    .foregroundColor(.driveLine)
                                     .frame(width: 13, height: 13)
                                 Text("Drive")
                                     .font(.system(size: 14))
+                                    .foregroundColor(.axisValueLabel)
                             }
                         }
                     }
                 }
-//                LineChart(dataSource: dataSouce)
+                // LineChart(dataSource: dataSouce)
                 SwiftUILineChart(dataSource: dataSouce)
 //                Group {
 //                    if #available(macOS 13, *) {

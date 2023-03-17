@@ -7,9 +7,6 @@ struct ResultDeltaView: View {
     var body: some View {
         HStack {
             DeltaValueView(value: delta.value, isNeutral: isNeutral)
-            if let significantChange = delta.significantChange {
-                DeltaChangeView(significantChange: significantChange)
-            }
         }
     }
 }

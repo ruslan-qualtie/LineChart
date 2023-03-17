@@ -19,7 +19,6 @@
 		C380AFBD29BF609C000C9B27 /* ResultDeltaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */; };
 		C380AFBF29BF60E9000C9B27 /* DeltaValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */; };
 		C380AFC129BF6138000C9B27 /* String+Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFC029BF6138000C9B27 /* String+Stat.swift */; };
-		C380AFC329BF618A000C9B27 /* DeltaChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFC229BF618A000C9B27 /* DeltaChangeView.swift */; };
 		DA14BC9829912077000CD986 /* SwiftUILineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14BC9729912077000CD986 /* SwiftUILineChart.swift */; };
 		DAF29ACA298D4CB00076095B /* LineChartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF29AC9298D4CB00076095B /* LineChartApp.swift */; };
 		DAF29ACC298D4CB00076095B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF29ACB298D4CB00076095B /* ContentView.swift */; };
@@ -48,7 +47,6 @@
 		C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDeltaView.swift; sourceTree = "<group>"; };
 		C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaValueView.swift; sourceTree = "<group>"; };
 		C380AFC029BF6138000C9B27 /* String+Stat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Stat.swift"; sourceTree = "<group>"; };
-		C380AFC229BF618A000C9B27 /* DeltaChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaChangeView.swift; sourceTree = "<group>"; };
 		DA14BC9729912077000CD986 /* SwiftUILineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILineChart.swift; sourceTree = "<group>"; };
 		DAF29AC6298D4CB00076095B /* LineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF29AC9298D4CB00076095B /* LineChartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartApp.swift; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 				C380AFAA29BF5DA1000C9B27 /* BarChartStatView.swift */,
 				C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */,
 				C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */,
-				C380AFC229BF618A000C9B27 /* DeltaChangeView.swift */,
 				C380AFAC29BF5DE1000C9B27 /* BarChartStat.swift */,
 				C380AFB429BF5F40000C9B27 /* BarChartStat+sample.swift */,
 				C380AFAE29BF5E16000C9B27 /* FormattedResultDelta.swift */,
@@ -224,7 +221,6 @@
 				DAF29ACA298D4CB00076095B /* LineChartApp.swift in Sources */,
 				DAF29AD9298D4FD60076095B /* LineChart.swift in Sources */,
 				C380AFB929BF5FDE000C9B27 /* String+deltaFormat.swift in Sources */,
-				C380AFC329BF618A000C9B27 /* DeltaChangeView.swift in Sources */,
 				C380AFB329BF5EDB000C9B27 /* PreviewContainer.swift in Sources */,
 				C380AFAF29BF5E16000C9B27 /* FormattedResultDelta.swift in Sources */,
 				C380AFAD29BF5DE1000C9B27 /* BarChartStat.swift in Sources */,

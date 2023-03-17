@@ -6,7 +6,7 @@ struct BarChartStatView: View {
     var body: some View {
         HStack(spacing: 6) {
             Text(stat.score)
-                .font(.system(size: 24, weight: .semibold))
+                .font(.system(size: 30, weight: .regular))
                 .frame(height: 32)
                 .foregroundColor(.chartStatScore)
             if let delta = stat.delta {

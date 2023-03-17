@@ -64,6 +64,13 @@ extension Color {
 
     static var plankBar1: Color { Color("purple-6") }
     static var plankBar2: Color { Color("purple-4") }
+    
+    // MARK: Line Chart
+    static var loadLine: Color { Color("geekblue-6") }
+    static var driveLine: Color { Color("orange-6") }
+    static var explodeLine: Color { Color("cyan-6") }
+    static var axisValueLabel: Color { Color("geekblue-3") }
+    static var axisGridLine: Color { Color("gridLine") }
 
     // MARK: Bar Chart
     static var chartGridEmphasized: Color { Color("geekblue-4").opacity(0.5) }
@@ -142,4 +149,14 @@ extension Color {
     #if os(iOS)
     static var sheetListRowBackground: Color { .white.opacity(0.05) }
     #endif
+
+    // MARK: Add User iOS
+    #if os(iOS)
+    static var headerTitle: Color { Color("geekblue-5") }
+    static var formBackground: Color { Color("black-russian") }
+    static var formBackgroundSecondary: Color { Color("bastille") }
+    static var formBackgroundTertiary: Color { Color("dolphin").opacity(0.24) }
+    static var formLabelSecondary: Color { Color("lavender").opacity(0.6) }
+    #endif
 }
+
