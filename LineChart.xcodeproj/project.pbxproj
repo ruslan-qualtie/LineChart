@@ -27,6 +27,9 @@
 		C380AFBD29BF609C000C9B27 /* ResultDeltaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */; };
 		C380AFBF29BF60E9000C9B27 /* DeltaValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */; };
 		C380AFC129BF6138000C9B27 /* String+Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFC029BF6138000C9B27 /* String+Stat.swift */; };
+		C3F55F5429C8A0210088D590 /* jump.json in Resources */ = {isa = PBXBuildFile; fileRef = C3F55F5329C8A0210088D590 /* jump.json */; };
+		C3F55F5829C8A40A0088D590 /* balance.json in Resources */ = {isa = PBXBuildFile; fileRef = C3F55F5729C8A40A0088D590 /* balance.json */; };
+		C3F55F5A29C8A63A0088D590 /* jumpAndBalance.json in Resources */ = {isa = PBXBuildFile; fileRef = C3F55F5929C8A63A0088D590 /* jumpAndBalance.json */; };
 		C3F55F5E29C8AF840088D590 /* LongitudinalChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F5D29C8AF840088D590 /* LongitudinalChartData.swift */; };
 		C3F55F6029C8AFBC0088D590 /* LongitudinalChartMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F5F29C8AFBC0088D590 /* LongitudinalChartMetric.swift */; };
 		C3F55F6629C8BC850088D590 /* ExportPdfReportResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F6529C8BC850088D590 /* ExportPdfReportResponse.swift */; };
@@ -68,6 +71,9 @@
 		C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDeltaView.swift; sourceTree = "<group>"; };
 		C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaValueView.swift; sourceTree = "<group>"; };
 		C380AFC029BF6138000C9B27 /* String+Stat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Stat.swift"; sourceTree = "<group>"; };
+		C3F55F5329C8A0210088D590 /* jump.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jump.json; sourceTree = "<group>"; };
+		C3F55F5729C8A40A0088D590 /* balance.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = balance.json; sourceTree = "<group>"; };
+		C3F55F5929C8A63A0088D590 /* jumpAndBalance.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jumpAndBalance.json; sourceTree = "<group>"; };
 		C3F55F5D29C8AF840088D590 /* LongitudinalChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongitudinalChartData.swift; sourceTree = "<group>"; };
 		C3F55F5F29C8AFBC0088D590 /* LongitudinalChartMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongitudinalChartMetric.swift; sourceTree = "<group>"; };
 		C3F55F6529C8BC850088D590 /* ExportPdfReportResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportPdfReportResponse.swift; sourceTree = "<group>"; };
@@ -148,6 +154,16 @@
 			path = Changed;
 			sourceTree = "<group>";
 		};
+		C3F55F5629C8A2780088D590 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				C3F55F5329C8A0210088D590 /* jump.json */,
+				C3F55F5729C8A40A0088D590 /* balance.json */,
+				C3F55F5929C8A63A0088D590 /* jumpAndBalance.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		DAF29ABD298D4CB00076095B = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +183,7 @@
 		DAF29AC8298D4CB00076095B /* LineChart */ = {
 			isa = PBXGroup;
 			children = (
+				C3F55F5629C8A2780088D590 /* JSON */,
 				C380AFA929BF5D8B000C9B27 /* ScanApp */,
 				C341287529C4C8C40079300B /* MarkExamples */,
 				DAF29AC9298D4CB00076095B /* LineChartApp.swift */,
@@ -253,7 +270,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F55F5429C8A0210088D590 /* jump.json in Resources */,
+				C3F55F5A29C8A63A0088D590 /* jumpAndBalance.json in Resources */,
 				DAF29AD1298D4CB10076095B /* Preview Assets.xcassets in Resources */,
+				C3F55F5829C8A40A0088D590 /* balance.json in Resources */,
 				DAF29ACE298D4CB10076095B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
