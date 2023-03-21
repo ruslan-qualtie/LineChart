@@ -13,6 +13,8 @@
 		C341287429C4C2CC0079300B /* RectangleMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341287329C4C2CC0079300B /* RectangleMarkExampleView.swift */; };
 		C341287729C4CA360079300B /* LineMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341287629C4CA360079300B /* LineMarkExampleView.swift */; };
 		C341287929C4DB650079300B /* RuleMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341287829C4DB650079300B /* RuleMarkExampleView.swift */; };
+		C374BA7C29C9D00700F659C1 /* DateFormatter+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374BA7B29C9D00700F659C1 /* DateFormatter+extensions.swift */; };
+		C374BA7E29C9D05100F659C1 /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374BA7D29C9D05100F659C1 /* Init.swift */; };
 		C380AFAB29BF5DA1000C9B27 /* BarChartStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFAA29BF5DA1000C9B27 /* BarChartStatView.swift */; };
 		C380AFAD29BF5DE1000C9B27 /* BarChartStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFAC29BF5DE1000C9B27 /* BarChartStat.swift */; };
 		C380AFAF29BF5E16000C9B27 /* FormattedResultDelta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFAE29BF5E16000C9B27 /* FormattedResultDelta.swift */; };
@@ -25,6 +27,11 @@
 		C380AFBD29BF609C000C9B27 /* ResultDeltaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */; };
 		C380AFBF29BF60E9000C9B27 /* DeltaValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */; };
 		C380AFC129BF6138000C9B27 /* String+Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFC029BF6138000C9B27 /* String+Stat.swift */; };
+		C3F55F5E29C8AF840088D590 /* LongitudinalChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F5D29C8AF840088D590 /* LongitudinalChartData.swift */; };
+		C3F55F6029C8AFBC0088D590 /* LongitudinalChartMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F5F29C8AFBC0088D590 /* LongitudinalChartMetric.swift */; };
+		C3F55F6629C8BC850088D590 /* ExportPdfReportResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F6529C8BC850088D590 /* ExportPdfReportResponse.swift */; };
+		C3F55F6829C8BCEE0088D590 /* Data+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F6729C8BCEE0088D590 /* Data+String.swift */; };
+		C3F55F6A29C8BD4C0088D590 /* ExportPdfReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F6929C8BD4C0088D590 /* ExportPdfReport.swift */; };
 		DA14BC9829912077000CD986 /* SwiftUILineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14BC9729912077000CD986 /* SwiftUILineChart.swift */; };
 		DAF29ACA298D4CB00076095B /* LineChartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF29AC9298D4CB00076095B /* LineChartApp.swift */; };
 		DAF29ACC298D4CB00076095B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF29ACB298D4CB00076095B /* ContentView.swift */; };
@@ -47,6 +54,8 @@
 		C341287329C4C2CC0079300B /* RectangleMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleMarkExampleView.swift; sourceTree = "<group>"; };
 		C341287629C4CA360079300B /* LineMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineMarkExampleView.swift; sourceTree = "<group>"; };
 		C341287829C4DB650079300B /* RuleMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleMarkExampleView.swift; sourceTree = "<group>"; };
+		C374BA7B29C9D00700F659C1 /* DateFormatter+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+extensions.swift"; sourceTree = "<group>"; };
+		C374BA7D29C9D05100F659C1 /* Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Init.swift; sourceTree = "<group>"; };
 		C380AFAA29BF5DA1000C9B27 /* BarChartStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartStatView.swift; sourceTree = "<group>"; };
 		C380AFAC29BF5DE1000C9B27 /* BarChartStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartStat.swift; sourceTree = "<group>"; };
 		C380AFAE29BF5E16000C9B27 /* FormattedResultDelta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedResultDelta.swift; sourceTree = "<group>"; };
@@ -59,6 +68,11 @@
 		C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDeltaView.swift; sourceTree = "<group>"; };
 		C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaValueView.swift; sourceTree = "<group>"; };
 		C380AFC029BF6138000C9B27 /* String+Stat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Stat.swift"; sourceTree = "<group>"; };
+		C3F55F5D29C8AF840088D590 /* LongitudinalChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongitudinalChartData.swift; sourceTree = "<group>"; };
+		C3F55F5F29C8AFBC0088D590 /* LongitudinalChartMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongitudinalChartMetric.swift; sourceTree = "<group>"; };
+		C3F55F6529C8BC850088D590 /* ExportPdfReportResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportPdfReportResponse.swift; sourceTree = "<group>"; };
+		C3F55F6729C8BCEE0088D590 /* Data+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+String.swift"; sourceTree = "<group>"; };
+		C3F55F6929C8BD4C0088D590 /* ExportPdfReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportPdfReport.swift; sourceTree = "<group>"; };
 		DA14BC9729912077000CD986 /* SwiftUILineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILineChart.swift; sourceTree = "<group>"; };
 		DAF29AC6298D4CB00076095B /* LineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF29AC9298D4CB00076095B /* LineChartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartApp.swift; sourceTree = "<group>"; };
@@ -103,11 +117,10 @@
 		C380AFA929BF5D8B000C9B27 /* ScanApp */ = {
 			isa = PBXGroup;
 			children = (
-				C380AFAA29BF5DA1000C9B27 /* BarChartStatView.swift */,
+				C3F55F5529C8A2310088D590 /* Changed */,
 				C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */,
 				C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */,
 				C380AFAC29BF5DE1000C9B27 /* BarChartStat.swift */,
-				C380AFB429BF5F40000C9B27 /* BarChartStat+sample.swift */,
 				C380AFAE29BF5E16000C9B27 /* FormattedResultDelta.swift */,
 				C380AFB629BF5F87000C9B27 /* FormattedResultDelta+sample.swift */,
 				C380AFB029BF5E4A000C9B27 /* DeltaSignificantChange.swift */,
@@ -115,8 +128,24 @@
 				C380AFB829BF5FDE000C9B27 /* String+deltaFormat.swift */,
 				C380AFBA29BF6041000C9B27 /* Color+Palette.swift */,
 				C380AFC029BF6138000C9B27 /* String+Stat.swift */,
+				C3F55F6529C8BC850088D590 /* ExportPdfReportResponse.swift */,
+				C3F55F6929C8BD4C0088D590 /* ExportPdfReport.swift */,
+				C3F55F6729C8BCEE0088D590 /* Data+String.swift */,
+				C374BA7D29C9D05100F659C1 /* Init.swift */,
 			);
 			path = ScanApp;
+			sourceTree = "<group>";
+		};
+		C3F55F5529C8A2310088D590 /* Changed */ = {
+			isa = PBXGroup;
+			children = (
+				C3F55F5D29C8AF840088D590 /* LongitudinalChartData.swift */,
+				C3F55F5F29C8AFBC0088D590 /* LongitudinalChartMetric.swift */,
+				C380AFAA29BF5DA1000C9B27 /* BarChartStatView.swift */,
+				C380AFB429BF5F40000C9B27 /* BarChartStat+sample.swift */,
+				C374BA7B29C9D00700F659C1 /* DateFormatter+extensions.swift */,
+			);
+			path = Changed;
 			sourceTree = "<group>";
 		};
 		DAF29ABD298D4CB00076095B = {
@@ -236,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C374BA7C29C9D00700F659C1 /* DateFormatter+extensions.swift in Sources */,
 				C341287229C4B61C0079300B /* BarMarkExampleView.swift in Sources */,
 				C341286E29C49AD90079300B /* PointMarkExampleView.swift in Sources */,
 				DAF29ADF298D52B40076095B /* DataSource.swift in Sources */,
@@ -254,17 +284,23 @@
 				C380AFAF29BF5E16000C9B27 /* FormattedResultDelta.swift in Sources */,
 				C380AFAD29BF5DE1000C9B27 /* BarChartStat.swift in Sources */,
 				C380AFBD29BF609C000C9B27 /* ResultDeltaView.swift in Sources */,
+				C3F55F6629C8BC850088D590 /* ExportPdfReportResponse.swift in Sources */,
 				C380AFB529BF5F40000C9B27 /* BarChartStat+sample.swift in Sources */,
 				DAF29AE5298D6D1C0076095B /* LineView.swift in Sources */,
+				C3F55F6829C8BCEE0088D590 /* Data+String.swift in Sources */,
 				C380AFAB29BF5DA1000C9B27 /* BarChartStatView.swift in Sources */,
 				C380AFB129BF5E4A000C9B27 /* DeltaSignificantChange.swift in Sources */,
 				DAF29AE7298D7CA40076095B /* DotsView.swift in Sources */,
+				C374BA7E29C9D05100F659C1 /* Init.swift in Sources */,
+				C3F55F6029C8AFBC0088D590 /* LongitudinalChartMetric.swift in Sources */,
+				C3F55F6A29C8BD4C0088D590 /* ExportPdfReport.swift in Sources */,
 				C341287429C4C2CC0079300B /* RectangleMarkExampleView.swift in Sources */,
 				DAF29AE3298D57BC0076095B /* LineLabelsView.swift in Sources */,
 				C341287029C4B0D60079300B /* AreaMarkExampleView.swift in Sources */,
 				DAF29AE1298D555E0076095B /* LineGridView.swift in Sources */,
 				C341287729C4CA360079300B /* LineMarkExampleView.swift in Sources */,
 				DAF29ADB298D52000076095B /* LineData.swift in Sources */,
+				C3F55F5E29C8AF840088D590 /* LongitudinalChartData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
