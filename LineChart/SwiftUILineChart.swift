@@ -25,9 +25,9 @@ struct SwiftUILineChart: View {
     ]
 
     let chartForegroundStyleMap: KeyValuePairs<String, Color> = [
-        "Drive": .driveLine,
-        "Load": .loadLine,
-        "Explode": .explodeLine,
+        "Drive": .thirdLine,
+        "Load": .firstLine,
+        "Explode": .secondLine,
         "Average for Age": .white,
         "Search Rule": .axisValueLabel
     ]

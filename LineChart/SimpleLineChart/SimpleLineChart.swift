@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct LineChart: View {
+struct SimpleLineChart: View {
     let dataSource: LineChartData
     
     let gridValues: [Int]

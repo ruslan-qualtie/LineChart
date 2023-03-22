@@ -71,4 +71,9 @@ extension BarChartStat {
         score: "104",
         delta: .sampleChartNegative
     )
+    static let spartaScoreNegativeDelta = BarChartStat(
+        title: "Sparta Score",
+        score: "72",
+        delta: .sampleChartNegative
+    )
 }

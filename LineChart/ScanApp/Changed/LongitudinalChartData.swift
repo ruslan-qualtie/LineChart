@@ -29,4 +29,8 @@ extension LongitudinalChartData {
         }
         return result
     }
+    
+    func headerContent() -> LineChartHeaderContent {
+        LineChartName(rawValue: name)!.headerContent
+    }
 }

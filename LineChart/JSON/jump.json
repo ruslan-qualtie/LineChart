@@ -22,7 +22,7 @@
                     "data" : [
                         {
                             "metrics" : {
-                                "jump__score_sparta" : 82
+                                "Sparta Score" : 82
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "a6434571-a61c-4d87-b6b9-3947095439d4",
@@ -37,7 +37,7 @@
                         },
                         {
                             "metrics" : {
-                                "jump__score_sparta" : 82
+                                "Sparta Score" : 82
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "56f1f52b-25f2-4b29-99c0-8e83e292a5a9",
@@ -52,7 +52,7 @@
                         },
                         {
                             "metrics" : {
-                                "jump__score_sparta" : 82
+                                "Sparta Score" : 82
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "6e697dee-c821-448f-b32f-17c1c2821844",
@@ -67,7 +67,7 @@
                         },
                         {
                             "metrics" : {
-                                "jump__score_sparta" : 79
+                                "Sparta Score" : 79
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "1a06ca71-b713-4be6-ae79-8e490fd26a8a",
@@ -83,7 +83,7 @@
                         },
                         {
                             "metrics" : {
-                                "jump__score_sparta" : 82
+                                "Sparta Score" : 82
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "7b1b1f44-2f89-48d0-bc31-a71d844fdc7d",
@@ -98,7 +98,7 @@
                         },
                         {
                             "metrics" : {
-                                "jump__score_sparta" : 82
+                                "Sparta Score" : 82
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "13a7540f-5b83-4585-9461-0cb6b29b3d20",
@@ -113,7 +113,7 @@
                         },
                         {
                             "metrics" : {
-                                "jump__score_sparta" : 82
+                                "Sparta Score" : 82
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "82106081-7ab0-4752-b21c-5d3fe28ddb06",
@@ -129,7 +129,7 @@
                         },
                         {
                             "metrics" : {
-                                "jump__score_sparta" : 81
+                                "Sparta Score" : 81
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "d9ffba07-9f77-445d-a590-676fd0294472",
@@ -144,7 +144,7 @@
                         },
                         {
                             "metrics" : {
-                                "jump__score_sparta" : 81
+                                "Sparta Score" : 81
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "84353dcd-a896-4226-a220-b59470f8dd43",
@@ -159,7 +159,7 @@
                         },
                         {
                             "metrics" : {
-                                "jump__score_sparta" : 81
+                                "Sparta Score" : 81
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "95178b53-fdb0-4d78-94cc-18d6322c1a3a",
@@ -179,164 +179,9 @@
                     "data" : [
                         {
                             "metrics" : {
-                                "balance__sway_NORM" : 70
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "1a06ca71-b713-4be6-ae79-8e490fd26a8a",
-                            "scannedAt" : "2023-03-20T14:27:21+00:00",
-                            "scanType" : "Jump and Balance",
-                            "segments" : [
-                                "weight",
-                                "jump",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T14:31:34.090709+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "balance__sway_NORM" : 77
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "fc6b3054-12ab-402e-bf10-2199f77d2f0e",
-                            "scannedAt" : "2023-03-20T14:20:56+00:00",
-                            "scanType" : "Balance",
-                            "segments" : [
-                                "weight",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T14:22:16.162954+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "balance__sway_NORM" : 63
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "de0db63f-0f8c-4f81-88de-bbab3abcc053",
-                            "scannedAt" : "2023-03-16T16:51:01+00:00",
-                            "scanType" : "Balance",
-                            "segments" : [
-                                "weight",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-16T16:52:20.26629+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "balance__sway_NORM" : 77
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "bc064098-f7ce-483e-9cb7-d2d2d02ab33a",
-                            "scannedAt" : "2023-03-15T17:34:27+00:00",
-                            "scanType" : "Balance",
-                            "segments" : [
-                                "weight",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-15T17:38:13.633116+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "balance__sway_NORM" : 77
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "454bd908-0ff7-4336-992b-c7813d99b52b",
-                            "scannedAt" : "2023-03-15T17:19:37+00:00",
-                            "scanType" : "Balance",
-                            "segments" : [
-                                "weight",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-15T17:38:32.552517+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "balance__sway_NORM" : 77
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "cb1dcac8-454a-411f-93f2-8bb104df102a",
-                            "scannedAt" : "2023-03-15T17:07:32+00:00",
-                            "scanType" : "Balance",
-                            "segments" : [
-                                "weight",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-15T17:38:19.175283+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "balance__sway_NORM" : 77
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "d177da13-61d3-49ae-a349-3a11630667ae",
-                            "scannedAt" : "2023-03-15T16:51:02+00:00",
-                            "scanType" : "Balance",
-                            "segments" : [
-                                "weight",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-15T17:37:57.96785+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "balance__sway_NORM" : 77
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "138e2c87-6dc6-44a9-bbcd-b5a1e6c9fe26",
-                            "scannedAt" : "2023-03-15T16:36:35+00:00",
-                            "scanType" : "Balance",
-                            "segments" : [
-                                "weight",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-15T17:37:05.74146+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "balance__sway_NORM" : 77
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "45b03390-1ed6-4641-809a-d686f0c010cc",
-                            "scannedAt" : "2023-03-15T16:31:46+00:00",
-                            "scanType" : "Balance",
-                            "segments" : [
-                                "weight",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-15T17:37:08.779534+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "balance__sway_NORM" : 94
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "82106081-7ab0-4752-b21c-5d3fe28ddb06",
-                            "scannedAt" : "2023-03-06T22:19:19+00:00",
-                            "scanType" : "Jump and Balance",
-                            "segments" : [
-                                "weight",
-                                "jump",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-06T22:21:09.151748+00:00"
-                        }
-                    ],
-                    "name" : "balanceSway"
-                },
-                {
-                    "data" : [
-                        {
-                            "metrics" : {
-                                "jump__riskledm_group" : 1
+                                "Drive" : 42,
+                                "Explode" : 48,
+                                "Load" : 56
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "a6434571-a61c-4d87-b6b9-3947095439d4",
@@ -351,7 +196,9 @@
                         },
                         {
                             "metrics" : {
-                                "jump__riskledm_group" : 1
+                                "Drive" : 42,
+                                "Explode" : 47,
+                                "Load" : 56
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "56f1f52b-25f2-4b29-99c0-8e83e292a5a9",
@@ -366,7 +213,9 @@
                         },
                         {
                             "metrics" : {
-                                "jump__riskledm_group" : 1
+                                "Drive" : 42,
+                                "Explode" : 48,
+                                "Load" : 56
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "6e697dee-c821-448f-b32f-17c1c2821844",
@@ -381,7 +230,9 @@
                         },
                         {
                             "metrics" : {
-                                "jump__riskledm_group" : 1
+                                "Drive" : 37,
+                                "Explode" : 46,
+                                "Load" : 51
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "1a06ca71-b713-4be6-ae79-8e490fd26a8a",
@@ -397,7 +248,9 @@
                         },
                         {
                             "metrics" : {
-                                "jump__riskledm_group" : 1
+                                "Drive" : 42,
+                                "Explode" : 48,
+                                "Load" : 56
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "7b1b1f44-2f89-48d0-bc31-a71d844fdc7d",
@@ -412,7 +265,9 @@
                         },
                         {
                             "metrics" : {
-                                "jump__riskledm_group" : 1
+                                "Drive" : 42,
+                                "Explode" : 48,
+                                "Load" : 56
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "13a7540f-5b83-4585-9461-0cb6b29b3d20",
@@ -427,7 +282,9 @@
                         },
                         {
                             "metrics" : {
-                                "jump__riskledm_group" : 3
+                                "Drive" : 53,
+                                "Explode" : 44,
+                                "Load" : 42
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "82106081-7ab0-4752-b21c-5d3fe28ddb06",
@@ -443,7 +300,9 @@
                         },
                         {
                             "metrics" : {
-                                "jump__riskledm_group" : 1
+                                "Drive" : 41,
+                                "Explode" : 47,
+                                "Load" : 56
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "d9ffba07-9f77-445d-a590-676fd0294472",
@@ -458,7 +317,9 @@
                         },
                         {
                             "metrics" : {
-                                "jump__riskledm_group" : 1
+                                "Drive" : 41,
+                                "Explode" : 47,
+                                "Load" : 56
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "84353dcd-a896-4226-a220-b59470f8dd43",
@@ -473,361 +334,9 @@
                         },
                         {
                             "metrics" : {
-                                "jump__riskledm_group" : 1
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "95178b53-fdb0-4d78-94cc-18d6322c1a3a",
-                            "scannedAt" : "2023-02-22T18:43:14+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-15T17:37:46.746764+00:00"
-                        }
-                    ],
-                    "name" : "injuryRisk"
-                },
-                {
-                    "data" : [
-                        {
-                            "metrics" : {
-                                "jump__height_impulse" : 0.26600000000000001
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "a6434571-a61c-4d87-b6b9-3947095439d4",
-                            "scannedAt" : "2023-03-20T18:14:12+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T18:15:12.659469+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__height_impulse" : 0.26600000000000001
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "56f1f52b-25f2-4b29-99c0-8e83e292a5a9",
-                            "scannedAt" : "2023-03-20T16:43:36+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T16:44:35.569654+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__height_impulse" : 0.26600000000000001
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "6e697dee-c821-448f-b32f-17c1c2821844",
-                            "scannedAt" : "2023-03-20T16:37:05+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T16:38:01.921729+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__height_impulse" : 0.222
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "1a06ca71-b713-4be6-ae79-8e490fd26a8a",
-                            "scannedAt" : "2023-03-20T14:27:21+00:00",
-                            "scanType" : "Jump and Balance",
-                            "segments" : [
-                                "weight",
-                                "jump",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T14:31:34.090709+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__height_impulse" : 0.26600000000000001
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "7b1b1f44-2f89-48d0-bc31-a71d844fdc7d",
-                            "scannedAt" : "2023-03-20T14:04:17+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T14:05:19.471009+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__height_impulse" : 0.26700000000000002
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "13a7540f-5b83-4585-9461-0cb6b29b3d20",
-                            "scannedAt" : "2023-03-20T13:49:31+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T13:50:44.486343+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__height_impulse" : 0.29799999999999999
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "82106081-7ab0-4752-b21c-5d3fe28ddb06",
-                            "scannedAt" : "2023-03-06T22:19:19+00:00",
-                            "scanType" : "Jump and Balance",
-                            "segments" : [
-                                "weight",
-                                "jump",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-06T22:21:09.151748+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__height_impulse" : 0.26400000000000001
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "d9ffba07-9f77-445d-a590-676fd0294472",
-                            "scannedAt" : "2023-02-22T18:54:11+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-15T17:37:23.782818+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__height_impulse" : 0.26300000000000001
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "84353dcd-a896-4226-a220-b59470f8dd43",
-                            "scannedAt" : "2023-02-22T18:49:41+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-15T17:36:45.35045+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__height_impulse" : 0.26400000000000001
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "95178b53-fdb0-4d78-94cc-18d6322c1a3a",
-                            "scannedAt" : "2023-02-22T18:43:14+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-15T17:37:46.746764+00:00"
-                        }
-                    ],
-                    "name" : "jumpHeight"
-                },
-                {
-                    "data" : [
-                        {
-                            "metrics" : {
-                                "jump__drive_NORM" : 42,
-                                "jump__explode_NORM" : 48,
-                                "jump__height_impulse" : 0.26600000000000001,
-                                "jump__load_NORM" : 56,
-                                "weight__body_mass" : 94.900000000000006
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "a6434571-a61c-4d87-b6b9-3947095439d4",
-                            "scannedAt" : "2023-03-20T18:14:12+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T18:15:12.659469+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__drive_NORM" : 42,
-                                "jump__explode_NORM" : 47,
-                                "jump__height_impulse" : 0.26600000000000001,
-                                "jump__load_NORM" : 56,
-                                "weight__body_mass" : 94.900000000000006
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "56f1f52b-25f2-4b29-99c0-8e83e292a5a9",
-                            "scannedAt" : "2023-03-20T16:43:36+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T16:44:35.569654+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__drive_NORM" : 42,
-                                "jump__explode_NORM" : 48,
-                                "jump__height_impulse" : 0.26600000000000001,
-                                "jump__load_NORM" : 56,
-                                "weight__body_mass" : 94.299999999999997
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "6e697dee-c821-448f-b32f-17c1c2821844",
-                            "scannedAt" : "2023-03-20T16:37:05+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T16:38:01.921729+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__drive_NORM" : 37,
-                                "jump__explode_NORM" : 46,
-                                "jump__height_impulse" : 0.222,
-                                "jump__load_NORM" : 51,
-                                "weight__body_mass" : 77.400000000000006
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "1a06ca71-b713-4be6-ae79-8e490fd26a8a",
-                            "scannedAt" : "2023-03-20T14:27:21+00:00",
-                            "scanType" : "Jump and Balance",
-                            "segments" : [
-                                "weight",
-                                "jump",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T14:31:34.090709+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__drive_NORM" : 42,
-                                "jump__explode_NORM" : 48,
-                                "jump__height_impulse" : 0.26600000000000001,
-                                "jump__load_NORM" : 56,
-                                "weight__body_mass" : 94.900000000000006
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "7b1b1f44-2f89-48d0-bc31-a71d844fdc7d",
-                            "scannedAt" : "2023-03-20T14:04:17+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T14:05:19.471009+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__drive_NORM" : 42,
-                                "jump__explode_NORM" : 48,
-                                "jump__height_impulse" : 0.26700000000000002,
-                                "jump__load_NORM" : 56,
-                                "weight__body_mass" : 94.900000000000006
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "13a7540f-5b83-4585-9461-0cb6b29b3d20",
-                            "scannedAt" : "2023-03-20T13:49:31+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T13:50:44.486343+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__drive_NORM" : 53,
-                                "jump__explode_NORM" : 44,
-                                "jump__height_impulse" : 0.29799999999999999,
-                                "jump__load_NORM" : 42,
-                                "weight__body_mass" : 51.600000000000001
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "82106081-7ab0-4752-b21c-5d3fe28ddb06",
-                            "scannedAt" : "2023-03-06T22:19:19+00:00",
-                            "scanType" : "Jump and Balance",
-                            "segments" : [
-                                "weight",
-                                "jump",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-06T22:21:09.151748+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__drive_NORM" : 41,
-                                "jump__explode_NORM" : 47,
-                                "jump__height_impulse" : 0.26400000000000001,
-                                "jump__load_NORM" : 56,
-                                "weight__body_mass" : 94.700000000000003
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "d9ffba07-9f77-445d-a590-676fd0294472",
-                            "scannedAt" : "2023-02-22T18:54:11+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-15T17:37:23.782818+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__drive_NORM" : 41,
-                                "jump__explode_NORM" : 47,
-                                "jump__height_impulse" : 0.26300000000000001,
-                                "jump__load_NORM" : 56,
-                                "weight__body_mass" : 94.700000000000003
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "84353dcd-a896-4226-a220-b59470f8dd43",
-                            "scannedAt" : "2023-02-22T18:49:41+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-15T17:36:45.35045+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "jump__drive_NORM" : 41,
-                                "jump__explode_NORM" : 47,
-                                "jump__height_impulse" : 0.26400000000000001,
-                                "jump__load_NORM" : 56,
-                                "weight__body_mass" : 94.700000000000003
+                                "Drive" : 41,
+                                "Explode" : 47,
+                                "Load" : 56
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "95178b53-fdb0-4d78-94cc-18d6322c1a3a",
@@ -847,8 +356,8 @@
                     "data" : [
                         {
                             "metrics" : {
-                                "left_balance__sway_NORM" : 78,
-                                "right_balance__sway_NORM" : 63
+                                "Left" : 78,
+                                "Right" : 63
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "1a06ca71-b713-4be6-ae79-8e490fd26a8a",
@@ -864,8 +373,8 @@
                         },
                         {
                             "metrics" : {
-                                "left_balance__sway_NORM" : 74,
-                                "right_balance__sway_NORM" : 80
+                                "Left" : 74,
+                                "Right" : 80
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "fc6b3054-12ab-402e-bf10-2199f77d2f0e",
@@ -880,8 +389,8 @@
                         },
                         {
                             "metrics" : {
-                                "left_balance__sway_NORM" : 56,
-                                "right_balance__sway_NORM" : 71
+                                "Left" : 56,
+                                "Right" : 71
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "de0db63f-0f8c-4f81-88de-bbab3abcc053",
@@ -896,8 +405,8 @@
                         },
                         {
                             "metrics" : {
-                                "left_balance__sway_NORM" : 74,
-                                "right_balance__sway_NORM" : 80
+                                "Left" : 74,
+                                "Right" : 80
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "bc064098-f7ce-483e-9cb7-d2d2d02ab33a",
@@ -912,8 +421,8 @@
                         },
                         {
                             "metrics" : {
-                                "left_balance__sway_NORM" : 74,
-                                "right_balance__sway_NORM" : 80
+                                "Left" : 74,
+                                "Right" : 80
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "454bd908-0ff7-4336-992b-c7813d99b52b",
@@ -928,8 +437,8 @@
                         },
                         {
                             "metrics" : {
-                                "left_balance__sway_NORM" : 74,
-                                "right_balance__sway_NORM" : 80
+                                "Left" : 74,
+                                "Right" : 80
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "cb1dcac8-454a-411f-93f2-8bb104df102a",
@@ -944,8 +453,8 @@
                         },
                         {
                             "metrics" : {
-                                "left_balance__sway_NORM" : 74,
-                                "right_balance__sway_NORM" : 80
+                                "Left" : 74,
+                                "Right" : 80
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "d177da13-61d3-49ae-a349-3a11630667ae",
@@ -960,8 +469,8 @@
                         },
                         {
                             "metrics" : {
-                                "left_balance__sway_NORM" : 74,
-                                "right_balance__sway_NORM" : 80
+                                "Left" : 74,
+                                "Right" : 80
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "138e2c87-6dc6-44a9-bbcd-b5a1e6c9fe26",
@@ -976,8 +485,8 @@
                         },
                         {
                             "metrics" : {
-                                "left_balance__sway_NORM" : 74,
-                                "right_balance__sway_NORM" : 80
+                                "Left" : 74,
+                                "Right" : 80
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "45b03390-1ed6-4641-809a-d686f0c010cc",
@@ -992,8 +501,8 @@
                         },
                         {
                             "metrics" : {
-                                "left_balance__sway_NORM" : 96,
-                                "right_balance__sway_NORM" : 91
+                                "Left" : 96,
+                                "Right" : 91
                             },
                             "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
                             "scanId" : "82106081-7ab0-4752-b21c-5d3fe28ddb06",
@@ -1009,380 +518,6 @@
                         }
                     ],
                     "name" : "balanceLR"
-                },
-                {
-                    "data" : [
-                        {
-                            "metrics" : {
-                                "left_balance_ec__sway_NORM" : 99,
-                                "right_balance_ec__sway_NORM" : 91
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "d1f72384-d142-4f34-8cf1-ae20aba8c0e8",
-                            "scannedAt" : "2023-01-11T00:38:30+00:00",
-                            "scanType" : "Eyes Closed Balance",
-                            "segments" : [
-                                "weight",
-                                "balance_ec"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-01-11T00:40:33.449297+00:00"
-                        }
-                    ],
-                    "name" : "balanceEyesClosedLR"
-                },
-                {
-                    "data" : [
-                        {
-                            "metrics" : {
-                                "left_balance_qk__sway_NORM" : 63,
-                                "right_balance_qk__sway_NORM" : 65
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "63400217-28df-494c-a529-97c4454ca709",
-                            "scannedAt" : "2023-01-11T00:43:50+00:00",
-                            "scanType" : "Quick Balance",
-                            "segments" : [
-                                "weight",
-                                "balance_qk"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-01-11T00:44:42.122574+00:00"
-                        }
-                    ],
-                    "name" : "balanceQuickLR"
-                },
-                {
-                    "data" : [
-                        {
-                            "metrics" : {
-                                "left_balance_ss__sway_NORM" : 63,
-                                "right_balance_ss__sway_NORM" : 69
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "f2b07ff8-3728-4f51-9171-5eb881ac902f",
-                            "scannedAt" : "2023-02-27T15:34:49+00:00",
-                            "scanType" : "Side Step Balance",
-                            "segments" : [
-                                "weight",
-                                "balance_ss"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-02-27T15:35:43.029869+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "left_balance_ss__sway_NORM" : 63,
-                                "right_balance_ss__sway_NORM" : 69
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "cd157c0c-c49f-47d5-af01-be217a13c980",
-                            "scannedAt" : "2023-02-27T14:44:32+00:00",
-                            "scanType" : "Side Step Balance",
-                            "segments" : [
-                                "weight",
-                                "balance_ss"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-02-27T14:45:26.923066+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "left_balance_ss__sway_NORM" : 63,
-                                "right_balance_ss__sway_NORM" : 69
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "78732373-4971-4e8d-adfd-487b61b72ee0",
-                            "scannedAt" : "2023-02-27T14:30:03+00:00",
-                            "scanType" : "Side Step Balance",
-                            "segments" : [
-                                "weight",
-                                "balance_ss"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-02-27T14:30:57.442592+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "left_balance_ss__sway_NORM" : 63,
-                                "right_balance_ss__sway_NORM" : 69
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "c0886fc6-33e9-4f17-a385-9a049a1fc46d",
-                            "scannedAt" : "2023-02-27T14:27:23+00:00",
-                            "scanType" : "Side Step Balance",
-                            "segments" : [
-                                "weight",
-                                "balance_ss"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-02-27T14:28:17.98355+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "left_balance_ss__sway_NORM" : 63,
-                                "right_balance_ss__sway_NORM" : 69
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "efe0e6d4-3233-43a6-ab98-65f9343b1762",
-                            "scannedAt" : "2023-02-27T14:00:45+00:00",
-                            "scanType" : "Side Step Balance",
-                            "segments" : [
-                                "weight",
-                                "balance_ss"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-02-27T14:01:41.362561+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "left_balance_ss__sway_NORM" : 64,
-                                "right_balance_ss__sway_NORM" : 69
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "d3d2309d-039f-4455-a31e-21f9301c4772",
-                            "scannedAt" : "2023-02-27T13:21:18+00:00",
-                            "scanType" : "Side Step Balance",
-                            "segments" : [
-                                "weight",
-                                "balance_ss"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-02-27T13:22:14.242203+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "left_balance_ss__sway_NORM" : 63,
-                                "right_balance_ss__sway_NORM" : 69
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "0ed47557-c19a-4530-aa08-d34e934e840f",
-                            "scannedAt" : "2023-02-27T13:19:30+00:00",
-                            "scanType" : "Side Step Balance",
-                            "segments" : [
-                                "weight",
-                                "balance_ss"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-02-27T13:20:54.647181+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "left_balance_ss__sway_NORM" : 64,
-                                "right_balance_ss__sway_NORM" : 69
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "000a8033-88ec-499d-af18-60a5c2ca30fc",
-                            "scannedAt" : "2023-02-27T12:56:56+00:00",
-                            "scanType" : "Side Step Balance",
-                            "segments" : [
-                                "weight",
-                                "balance_ss"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-02-27T12:57:53.243026+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "left_balance_ss__sway_NORM" : 50,
-                                "right_balance_ss__sway_NORM" : 60
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "fada8d64-94ee-4e5b-af87-df1df484f6ce",
-                            "scannedAt" : "2023-01-11T00:59:27+00:00",
-                            "scanType" : "Side Step Balance",
-                            "segments" : [
-                                "weight",
-                                "balance_ss"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-01-11T01:00:21.934649+00:00"
-                        }
-                    ],
-                    "name" : "balanceSideStepLR"
-                },
-                {
-                    "data" : [
-                        {
-                            "metrics" : null,
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "f75c36ba-6a6f-4557-8555-4f91b607d451",
-                            "scannedAt" : "2023-03-01T14:36:48+00:00",
-                            "scanType" : "Balance Assessment",
-                            "segments" : [
-                                "weight",
-                                "balance_ws"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-01T14:38:24.958747+00:00"
-                        },
-                        {
-                            "metrics" : null,
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "8f5978e7-8c75-4dd0-a2c5-1670e13afa0f",
-                            "scannedAt" : "2023-02-08T19:22:20+00:00",
-                            "scanType" : "Stability",
-                            "segments" : [
-                                "weight",
-                                "balance_ws"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-02-08T19:23:44.051325+00:00"
-                        }
-                    ],
-                    "name" : "balanceWeightShiftLR"
-                },
-                {
-                    "data" : [
-                        {
-                            "metrics" : {
-                                "weight__body_mass" : 94.900000000000006
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "a6434571-a61c-4d87-b6b9-3947095439d4",
-                            "scannedAt" : "2023-03-20T18:14:12+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T18:15:12.659469+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "weight__body_mass" : 79.200000000000003
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "9795c691-084e-49bd-b0eb-9558cfaf8752",
-                            "scannedAt" : "2023-03-20T18:07:13+00:00",
-                            "scanType" : "Weigh-In",
-                            "segments" : [
-                                "weight"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T18:07:24.090555+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "weight__body_mass" : 79.200000000000003
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "34cba8bc-1626-4950-9789-7288c1976296",
-                            "scannedAt" : "2023-03-20T17:47:13+00:00",
-                            "scanType" : "Weigh-In",
-                            "segments" : [
-                                "weight"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T17:47:23.872308+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "weight__body_mass" : 79.200000000000003
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "52904b1e-277d-42de-9954-b174fecad1a1",
-                            "scannedAt" : "2023-03-20T17:43:24+00:00",
-                            "scanType" : "Weigh-In",
-                            "segments" : [
-                                "weight"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T17:43:34.321033+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "weight__body_mass" : 94.900000000000006
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "56f1f52b-25f2-4b29-99c0-8e83e292a5a9",
-                            "scannedAt" : "2023-03-20T16:43:36+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T16:44:35.569654+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "weight__body_mass" : 94.299999999999997
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "6e697dee-c821-448f-b32f-17c1c2821844",
-                            "scannedAt" : "2023-03-20T16:37:05+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T16:38:01.921729+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "weight__body_mass" : 79.200000000000003
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "2b4a11f6-eedf-44b3-89af-d9a6ef5e6f2b",
-                            "scannedAt" : "2023-03-20T16:36:40+00:00",
-                            "scanType" : "Weigh-In",
-                            "segments" : [
-                                "weight"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T16:36:50.688743+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "weight__body_mass" : 77.400000000000006
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "1a06ca71-b713-4be6-ae79-8e490fd26a8a",
-                            "scannedAt" : "2023-03-20T14:27:21+00:00",
-                            "scanType" : "Jump and Balance",
-                            "segments" : [
-                                "weight",
-                                "jump",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T14:31:34.090709+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "weight__body_mass" : 97
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "fc6b3054-12ab-402e-bf10-2199f77d2f0e",
-                            "scannedAt" : "2023-03-20T14:20:56+00:00",
-                            "scanType" : "Balance",
-                            "segments" : [
-                                "weight",
-                                "balance"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T14:22:16.162954+00:00"
-                        },
-                        {
-                            "metrics" : {
-                                "weight__body_mass" : 94.900000000000006
-                            },
-                            "orgId" : "24283d44-a992-5051-97e3-1d5ec228d17c",
-                            "scanId" : "7b1b1f44-2f89-48d0-bc31-a71d844fdc7d",
-                            "scannedAt" : "2023-03-20T14:04:17+00:00",
-                            "scanType" : "Jump",
-                            "segments" : [
-                                "weight",
-                                "jump"
-                            ],
-                            "subjectId" : "624d4b14-f2b9-4172-8b15-16086c281826",
-                            "updatedAt" : "2023-03-20T14:05:19.471009+00:00"
-                        }
-                    ],
-                    "name" : "weight"
                 }
             ],
             "profileConfig" : {
