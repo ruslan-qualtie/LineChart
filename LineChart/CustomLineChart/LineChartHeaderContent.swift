@@ -20,11 +20,20 @@ extension LineChartHeaderContent {
     static var jumpHeight: LineChartHeaderContent {
         .init(
             title: "Jump Height",
-            description: "Jump height calculated by the integration of acceleration to determine exit velocity",
+            description: "Jump height calculated by the integration of acceleration to determine exit velocity.",
             legendItems: []
         )
     }
-    static var jumpLED: LineChartHeaderContent {
+    
+    static var balance: LineChartHeaderContent {
+        .init(
+            title: "Balance",
+            description: "Derived from the most recent Balance Scan, Balance represents an individual’s overall balance capability. Higher scores indicate better balance capabilities, with typical values ranging between 40-60.",
+            legendItems: []
+        )
+    }
+    
+    static var jump: LineChartHeaderContent {
         .init(
             title: "Jump",
             description: "The Jump Scan consists of a series of vertical jumps and is utilized to assess dynamic movement strategy and efficiency.",

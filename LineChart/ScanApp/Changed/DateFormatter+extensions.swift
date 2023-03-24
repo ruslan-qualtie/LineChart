@@ -27,4 +27,12 @@ extension DateFormatter {
             $0.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
         }
     }
+
+    public static var short: DateFormatter {
+        Init(DateFormatter()) {
+            $0.dateStyle = .short
+            $0.timeStyle = .short
+            // $0.dateFormat = "MM/dd/YY, h:mm a"
+        }
+    }
 }

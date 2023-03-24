@@ -1,19 +1,21 @@
 import SwiftUI
 
 struct LongitudinalChartView: View {
-    let dataSource: [LongitudinalChartData]
+    let dataSource: [LineChartData]
     var body: some View {
-        ForEach(dataSource, id: \.name) { data in
-            VStack(alignment: .leading, spacing: 4) {
-                LineChartHeaderView(content: data.headerContent())
-                LineChartView(points: data.metricPoints())
-                .padding(.top, 20)
+        VStack(spacing: 16) {
+            ForEach(dataSource, id: \.name) { chart in
+                VStack(alignment: .leading, spacing: 4) {
+                    LineChartHeaderView(content: chart.header)
+                    LineChartView(chartData: chart)
+                    .padding(.top, 20)
+                }
+                .padding(24)
+                .background(
+                    RoundedRectangle(cornerRadius: 16)
+                        .fill(Color("chart").opacity(0.03))
+                )
             }
-            .padding(24)
-            .background(
-                RoundedRectangle(cornerRadius: 16)
-                    .fill(Color("chart").opacity(0.03))
-            )
         }
     }
 }

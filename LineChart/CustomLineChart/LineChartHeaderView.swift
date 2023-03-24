@@ -28,7 +28,7 @@ struct LineChartHeaderView: View {
 #if DEBUG
 public struct LongitudinalChartHeaderView_Previews: PreviewProvider {
     public static var previews: some View {
-        LineChartHeaderView(content: .jumpLED)
+        LineChartHeaderView(content: .jump)
         .frame(minWidth: 1_240)
     }
 }

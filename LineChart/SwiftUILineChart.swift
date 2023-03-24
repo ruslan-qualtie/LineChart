@@ -282,7 +282,7 @@ struct LinePoint {
 
 extension LinePoint {
     var value: Int {
-        point.value
+        Int(point.value)
     }
 }
 
