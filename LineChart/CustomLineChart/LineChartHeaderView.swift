@@ -17,7 +17,7 @@ struct LineChartHeaderView: View {
             }
             Spacer(minLength: 220)
             HStack(spacing: 36) {
-                ForEach(content.legendItems, id: \.name) { item in
+                ForEach(content.legendItems, id: \.stat.title) { item in
                     LineChartLegendItemView(item: item)
                 }
             }

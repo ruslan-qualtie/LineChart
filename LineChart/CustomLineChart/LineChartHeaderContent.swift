@@ -21,7 +21,9 @@ extension LineChartHeaderContent {
         .init(
             title: "Jump Height",
             description: "Jump height calculated by the integration of acceleration to determine exit velocity.",
-            legendItems: []
+            legendItems: [
+                .jumpHeight
+            ]
         )
     }
     
@@ -29,7 +31,8 @@ extension LineChartHeaderContent {
         .init(
             title: "Balance",
             description: "Derived from the most recent Balance Scan, Balance represents an individual’s overall balance capability. Higher scores indicate better balance capabilities, with typical values ranging between 40-60.",
-            legendItems: []
+            legendItems: [
+                .balance]
         )
     }
     

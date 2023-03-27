@@ -2,34 +2,45 @@ import Charts
 import SwiftUI
 
 struct LineChartLegendItem {
-    let name: String
-    let symbol: BasicChartSymbolShape
-    let color: Color
     let stat: BarChartStat
+    let description: LineChartLegendDescription?
+
+    init(stat: BarChartStat, symbol: LineChartLegendDescription? = nil) {
+        self.stat = stat
+        self.description = symbol
+    }
 }
 
 extension LineChartLegendItem {
-    static var right: LineChartLegendItem {
-        .init(name: "Right", symbol: .circle, color: .firstLine, stat: .rightNegativeDelta)
+    static var spartaScore: LineChartLegendItem {
+        .init(stat: .spartaScoreNegativeDelta)
+    }
+
+    static var jumpHeight: LineChartLegendItem {
+        .init(stat: .jumpHeightNegativeDelta)
+    }
+
+    static var balance: LineChartLegendItem {
+        .init(stat: .balancePositiveDelta)
     }
 
     static var load: LineChartLegendItem {
-        .init(name: "Load", symbol: .circle, color: .firstLine, stat: .loadNegativeDelta)
+        .init(stat: .loadNegativeDelta, symbol: .load)
     }
-    
+
     static var explode: LineChartLegendItem {
-        .init(name: "Explode", symbol: .square, color: .secondLine, stat: .explodePositiveDelta)
+        .init(stat: .explodePositiveDelta, symbol: .explode)
     }
-    
+
     static var drive: LineChartLegendItem {
-        .init(name: "Drive", symbol: .triangle, color: .thirdLine, stat: .drivePositiveDelta)
+        .init(stat: .drivePositiveDelta, symbol: .drive)
     }
 
     static var left: LineChartLegendItem {
-        .init(name: "Left", symbol: .circle, color: .firstLine, stat: .leftPositiveDelta)
+        .init(stat: .leftPositiveDelta, symbol: .left)
     }
 
-    static var spartaScore: LineChartLegendItem {
-        .init(name: "Sparta Score", symbol: .circle, color: .firstLine, stat: .spartaScoreNegativeDelta)
+    static var right: LineChartLegendItem {
+        .init(stat: .rightNegativeDelta, symbol: .right)
     }
 }

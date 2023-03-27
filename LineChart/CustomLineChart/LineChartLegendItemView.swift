@@ -7,14 +7,16 @@ struct LineChartLegendItemView: View {
     var body: some View {
         VStack(alignment: .trailing) {
             BarChartStatView(stat: item.stat)
-            HStack {
-                item.symbol
-                    .strokeBorder(lineWidth: 2)
-                    .foregroundColor(item.color)
-                    .frame(width: 13, height: 13)
-                Text(item.name)
-                    .font(.system(size: 14))
-                    .foregroundColor(.axisValueLabel)
+            if item.description != nil {
+                HStack {
+                    item.description!.symbol
+                        .strokeBorder(lineWidth: 2)
+                        .foregroundColor(item.description!.color)
+                        .frame(width: 13, height: 13)
+                    Text(item.description!.name)
+                        .font(.system(size: 14))
+                        .foregroundColor(.axisValueLabel)
+                }
             }
         }
     }
@@ -26,7 +28,8 @@ public struct LineChartLegendItem_Previews: PreviewProvider {
         PreviewContainer([
             LineChartLegendItemView(item: .load),
             LineChartLegendItemView(item: .explode),
-            LineChartLegendItemView(item: .drive)
+            LineChartLegendItemView(item: .drive),
+            LineChartLegendItemView(item: .spartaScore)
         ])
     }
 }

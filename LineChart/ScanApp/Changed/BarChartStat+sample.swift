@@ -44,13 +44,6 @@ extension BarChartStat {
         score: "48",
         delta: .sampleChartNegative
     )
-
-    static let balancePositiveDelta = BarChartStat(
-        title: "Balance",
-        score: "81",
-        delta: .sampleChartPositive
-    )
-
     static let leftHighScore = BarChartStat(
         title: "Left",
         score: "86",
@@ -75,5 +68,15 @@ extension BarChartStat {
         title: "Sparta Score",
         score: "72",
         delta: .sampleChartNegative
+    )
+    static let jumpHeightNegativeDelta = BarChartStat(
+        title: "Jump Height",
+        score: "8.5 in",
+        delta: .sampleChartNegative
+    )
+    static let balancePositiveDelta = BarChartStat(
+        title: "Balance",
+        score: "53",
+        delta: .sampleChartPositive
     )
 }

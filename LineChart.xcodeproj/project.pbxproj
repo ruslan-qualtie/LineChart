@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C33127A529D1950300844411 /* View+chartLegend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33127A429D1950300844411 /* View+chartLegend.swift */; };
+		C33127A729D1AB0100844411 /* SearchRuleAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33127A629D1AB0100844411 /* SearchRuleAnnotationView.swift */; };
+		C33127A929D1AC1C00844411 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33127A829D1AC1C00844411 /* Line.swift */; };
 		C341286E29C49AD90079300B /* PointMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341286D29C49AD90079300B /* PointMarkExampleView.swift */; };
 		C341287029C4B0D60079300B /* AreaMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341286F29C4B0D60079300B /* AreaMarkExampleView.swift */; };
 		C341287229C4B61C0079300B /* BarMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341287129C4B61C0079300B /* BarMarkExampleView.swift */; };
@@ -33,16 +36,16 @@
 		C380AFBD29BF609C000C9B27 /* ResultDeltaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */; };
 		C380AFBF29BF60E9000C9B27 /* DeltaValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */; };
 		C380AFC129BF6138000C9B27 /* String+Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFC029BF6138000C9B27 /* String+Stat.swift */; };
-		C38FBE8D29CDE64C008A01DF /* SearchRulesAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FBE8C29CDE64C008A01DF /* SearchRulesAnnotationView.swift */; };
+		C38FBE8D29CDE64C008A01DF /* SelectionRuleAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FBE8C29CDE64C008A01DF /* SelectionRuleAnnotationView.swift */; };
 		C38FBE8F29CDE734008A01DF /* SelectionRuleAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FBE8E29CDE734008A01DF /* SelectionRuleAnnotation.swift */; };
 		C38FBE9129CDEB13008A01DF /* SelectionRuleAnnotationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FBE9029CDEB13008A01DF /* SelectionRuleAnnotationBuilder.swift */; };
+		C3A525AD29D30CEF00F4D2FF /* LineChartLegendDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A525AC29D30CEF00F4D2FF /* LineChartLegendDescription.swift */; };
 		C3D8602B29CDB76600D477E0 /* PointData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D8602A29CDB76600D477E0 /* PointData.swift */; };
 		C3D8602E29CDBA2700D477E0 /* LineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D8602D29CDBA2700D477E0 /* LineChartData.swift */; };
 		C3F55F5C29C8ADFA0088D590 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F5B29C8ADFA0088D590 /* LineChartView.swift */; };
 		C3F55F6229C8B2820088D590 /* HisoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F6129C8B2820088D590 /* HisoryViewModel.swift */; };
 		C3F55F6829C8BCEE0088D590 /* Data+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F6729C8BCEE0088D590 /* Data+String.swift */; };
 		C3FDFFD229CCB1D1008F1D49 /* LineChartPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FDFFD129CCB1D1008F1D49 /* LineChartPoint.swift */; };
-		DA14BC9829912077000CD986 /* SwiftUILineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14BC9729912077000CD986 /* SwiftUILineChart.swift */; };
 		DAF29ACA298D4CB00076095B /* LineChartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF29AC9298D4CB00076095B /* LineChartApp.swift */; };
 		DAF29ACC298D4CB00076095B /* HisoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF29ACB298D4CB00076095B /* HisoryView.swift */; };
 		DAF29ACE298D4CB10076095B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF29ACD298D4CB10076095B /* Assets.xcassets */; };
@@ -53,6 +56,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C33127A429D1950300844411 /* View+chartLegend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+chartLegend.swift"; sourceTree = "<group>"; };
+		C33127A629D1AB0100844411 /* SearchRuleAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRuleAnnotationView.swift; sourceTree = "<group>"; };
+		C33127A829D1AC1C00844411 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		C341286D29C49AD90079300B /* PointMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointMarkExampleView.swift; sourceTree = "<group>"; };
 		C341286F29C4B0D60079300B /* AreaMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaMarkExampleView.swift; sourceTree = "<group>"; };
 		C341287129C4B61C0079300B /* BarMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarMarkExampleView.swift; sourceTree = "<group>"; };
@@ -79,16 +85,16 @@
 		C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDeltaView.swift; sourceTree = "<group>"; };
 		C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaValueView.swift; sourceTree = "<group>"; };
 		C380AFC029BF6138000C9B27 /* String+Stat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Stat.swift"; sourceTree = "<group>"; };
-		C38FBE8C29CDE64C008A01DF /* SearchRulesAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRulesAnnotationView.swift; sourceTree = "<group>"; };
+		C38FBE8C29CDE64C008A01DF /* SelectionRuleAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionRuleAnnotationView.swift; sourceTree = "<group>"; };
 		C38FBE8E29CDE734008A01DF /* SelectionRuleAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionRuleAnnotation.swift; sourceTree = "<group>"; };
 		C38FBE9029CDEB13008A01DF /* SelectionRuleAnnotationBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionRuleAnnotationBuilder.swift; sourceTree = "<group>"; };
+		C3A525AC29D30CEF00F4D2FF /* LineChartLegendDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartLegendDescription.swift; sourceTree = "<group>"; };
 		C3D8602A29CDB76600D477E0 /* PointData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointData.swift; sourceTree = "<group>"; };
 		C3D8602D29CDBA2700D477E0 /* LineChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartData.swift; sourceTree = "<group>"; };
 		C3F55F5B29C8ADFA0088D590 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
 		C3F55F6129C8B2820088D590 /* HisoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisoryViewModel.swift; sourceTree = "<group>"; };
 		C3F55F6729C8BCEE0088D590 /* Data+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+String.swift"; sourceTree = "<group>"; };
 		C3FDFFD129CCB1D1008F1D49 /* LineChartPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartPoint.swift; sourceTree = "<group>"; };
-		DA14BC9729912077000CD986 /* SwiftUILineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILineChart.swift; sourceTree = "<group>"; };
 		DAF29AC6298D4CB00076095B /* LineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF29AC9298D4CB00076095B /* LineChartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartApp.swift; sourceTree = "<group>"; };
 		DAF29ACB298D4CB00076095B /* HisoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisoryView.swift; sourceTree = "<group>"; };
@@ -131,14 +137,19 @@
 				C374BA8029C9DA1F00F659C1 /* LineChartLegendItemView.swift */,
 				C374BA8729C9E4DC00F659C1 /* LineChartHeaderContent.swift */,
 				C374BA8529C9E2D800F659C1 /* LineChartHeaderView.swift */,
+				C3A525AC29D30CEF00F4D2FF /* LineChartLegendDescription.swift */,
+				C3F55F5B29C8ADFA0088D590 /* LineChartView.swift */,
 				C3FDFFD129CCB1D1008F1D49 /* LineChartPoint.swift */,
 				C3D8602D29CDBA2700D477E0 /* LineChartData.swift */,
 				DAF29ADA298D52000076095B /* LineData.swift */,
 				C3D8602A29CDB76600D477E0 /* PointData.swift */,
-				C38FBE8C29CDE64C008A01DF /* SearchRulesAnnotationView.swift */,
+				C38FBE8C29CDE64C008A01DF /* SelectionRuleAnnotationView.swift */,
+				C33127A629D1AB0100844411 /* SearchRuleAnnotationView.swift */,
 				C38FBE8E29CDE734008A01DF /* SelectionRuleAnnotation.swift */,
 				C38FBE9029CDEB13008A01DF /* SelectionRuleAnnotationBuilder.swift */,
 				DAF29ADC298D528E0076095B /* Date+extensions.swift */,
+				C33127A429D1950300844411 /* View+chartLegend.swift */,
+				C33127A829D1AC1C00844411 /* Line.swift */,
 			);
 			path = CustomLineChart;
 			sourceTree = "<group>";
@@ -200,8 +211,6 @@
 				C3F55F6129C8B2820088D590 /* HisoryViewModel.swift */,
 				C374BA8B29C9EA2B00F659C1 /* HisoryHeaderView.swift */,
 				C374BA8929C9E6BC00F659C1 /* LongitudinalChartView.swift */,
-				C3F55F5B29C8ADFA0088D590 /* LineChartView.swift */,
-				DA14BC9729912077000CD986 /* SwiftUILineChart.swift */,
 				DAF29ADE298D52B40076095B /* DataSource.swift */,
 				DAF29ACD298D4CB10076095B /* Assets.xcassets */,
 				DAF29AD2298D4CB10076095B /* LineChart.entitlements */,
@@ -293,10 +302,11 @@
 				C341286E29C49AD90079300B /* PointMarkExampleView.swift in Sources */,
 				C374BA8C29C9EA2B00F659C1 /* HisoryHeaderView.swift in Sources */,
 				C38FBE8F29CDE734008A01DF /* SelectionRuleAnnotation.swift in Sources */,
+				C3A525AD29D30CEF00F4D2FF /* LineChartLegendDescription.swift in Sources */,
 				DAF29ADF298D52B40076095B /* DataSource.swift in Sources */,
 				DAF29ADD298D528E0076095B /* Date+extensions.swift in Sources */,
 				C380AFC129BF6138000C9B27 /* String+Stat.swift in Sources */,
-				DA14BC9829912077000CD986 /* SwiftUILineChart.swift in Sources */,
+				C33127A929D1AC1C00844411 /* Line.swift in Sources */,
 				C380AFBB29BF6041000C9B27 /* Color+Palette.swift in Sources */,
 				DAF29ACC298D4CB00076095B /* HisoryView.swift in Sources */,
 				C380AFBF29BF60E9000C9B27 /* DeltaValueView.swift in Sources */,
@@ -304,6 +314,7 @@
 				C374BA8829C9E4DC00F659C1 /* LineChartHeaderContent.swift in Sources */,
 				C380AFB729BF5F87000C9B27 /* FormattedResultDelta+sample.swift in Sources */,
 				C374BA8429C9DD5400F659C1 /* LineChartLegendItem.swift in Sources */,
+				C33127A729D1AB0100844411 /* SearchRuleAnnotationView.swift in Sources */,
 				DAF29ACA298D4CB00076095B /* LineChartApp.swift in Sources */,
 				C380AFB929BF5FDE000C9B27 /* String+deltaFormat.swift in Sources */,
 				C38FBE9129CDEB13008A01DF /* SelectionRuleAnnotationBuilder.swift in Sources */,
@@ -318,12 +329,13 @@
 				C380AFB529BF5F40000C9B27 /* BarChartStat+sample.swift in Sources */,
 				C3F55F6829C8BCEE0088D590 /* Data+String.swift in Sources */,
 				C380AFAB29BF5DA1000C9B27 /* BarChartStatView.swift in Sources */,
+				C33127A529D1950300844411 /* View+chartLegend.swift in Sources */,
 				C380AFB129BF5E4A000C9B27 /* DeltaSignificantChange.swift in Sources */,
 				C374BA8A29C9E6BC00F659C1 /* LongitudinalChartView.swift in Sources */,
 				C3D8602E29CDBA2700D477E0 /* LineChartData.swift in Sources */,
 				C374BA7E29C9D05100F659C1 /* Init.swift in Sources */,
 				C3F55F5C29C8ADFA0088D590 /* LineChartView.swift in Sources */,
-				C38FBE8D29CDE64C008A01DF /* SearchRulesAnnotationView.swift in Sources */,
+				C38FBE8D29CDE64C008A01DF /* SelectionRuleAnnotationView.swift in Sources */,
 				C341287429C4C2CC0079300B /* RectangleMarkExampleView.swift in Sources */,
 				C341287029C4B0D60079300B /* AreaMarkExampleView.swift in Sources */,
 				C341287729C4CA360079300B /* LineMarkExampleView.swift in Sources */,
