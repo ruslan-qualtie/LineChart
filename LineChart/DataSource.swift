@@ -5,7 +5,8 @@ let dataSouce = [
     chartSpartaScore,
     chartJumpHeight,
     chartBlalance,
-    chartJump
+    chartJump,
+    chartBalanceLR
 ]
 
 let pointsSpartaScore: [PointData] = [
@@ -140,3 +141,46 @@ let lineExpload: LineData = .init(points: pointsExpload, name: "Expload")
 let lineDrive: LineData = .init(points: pointsDrive, name: "Drive")
 
 let chartJump: LineChartData = .init(lines: [lineLoad, lineExpload, lineDrive], name: "Jump", header: .jump)
+
+let pointsLeft: [PointData] = [
+    .init(date: .date(from: "2021-10-21T12:00:00+00:00"), value: 70.12195122),
+    .init(date: .date(from: "2021-10-31T19:34:44+00:00"), value: 66.95121951),
+    .init(date: .date(from: "2021-11-01T03:49:54+00:00"), value: 70.12195122),
+    .init(date: .date(from: "2022-01-22T04:05:03+00:00"), value: 66.70731707),
+    .init(date: .date(from: "2022-01-24T17:58:44+00:00"), value: 71.58536585),
+    .init(date: .date(from: "2022-01-25T22:51:47+00:00"), value: 68.41463415),
+    .init(date: .date(from: "2022-01-29T05:15:47+00:00"), value: 70.12195122),
+    .init(date: .date(from: "2022-01-31T06:46:44+00:00"), value: 74.26829268),
+    .init(date: .date(from: "2022-02-05T06:26:32+00:00"), value: 67.19512195),
+    .init(date: .date(from: "2022-02-25T17:28:25+00:00"), value: 74.75609756),
+    .init(date: .date(from: "2022-03-04T14:31:35+00:00"), value: 67.19512195),
+    .init(date: .date(from: "2022-03-20T14:16:25+00:00"), value: 74.51219512),
+    .init(date: .date(from: "2022-04-02T15:52:25+00:00"), value: 65.97560976),
+    .init(date: .date(from: "2022-04-22T10:24:00+00:00"), value: 54.02439024),
+    .init(date: .date(from: "2022-04-28T06:41:41+00:00"), value: 63.29268293),
+    .init(date: .date(from: "2022-05-29T13:41:03+00:00"), value: 44.26829268)
+]
+
+let pointsRight: [PointData] = [
+    .init(date: .date(from: "2021-10-21T12:00:00+00:00"), value: 67.12195122),
+    .init(date: .date(from: "2021-10-31T19:34:44+00:00"), value: 64.95121951),
+    .init(date: .date(from: "2021-11-01T03:49:54+00:00"), value: 69.12195122),
+    .init(date: .date(from: "2022-01-22T04:05:03+00:00"), value: 67.70731707),
+    .init(date: .date(from: "2022-01-24T17:58:44+00:00"), value: 73.58536585),
+    .init(date: .date(from: "2022-01-25T22:51:47+00:00"), value: 65.41463415),
+    .init(date: .date(from: "2022-01-29T05:15:47+00:00"), value: 71.12195122),
+    .init(date: .date(from: "2022-01-31T06:46:44+00:00"), value: 72.26829268),
+    .init(date: .date(from: "2022-02-05T06:26:32+00:00"), value: 66.19512195),
+    .init(date: .date(from: "2022-02-25T17:28:25+00:00"), value: 58.75609756),
+    .init(date: .date(from: "2022-03-04T14:31:35+00:00"), value: 66.19512195),
+    .init(date: .date(from: "2022-03-20T14:16:25+00:00"), value: 74.51219512),
+    .init(date: .date(from: "2022-04-02T15:52:25+00:00"), value: 63.97560976),
+    .init(date: .date(from: "2022-04-22T10:24:00+00:00"), value: 53.02439024),
+    .init(date: .date(from: "2022-04-28T06:41:41+00:00"), value: 61.29268293),
+    .init(date: .date(from: "2022-05-29T13:41:03+00:00"), value: 64.26829268)
+]
+
+let lineLeft: LineData = .init(points: pointsLeft, name: "Left")
+let lineRight: LineData = .init(points: pointsRight, name: "Right")
+
+let chartBalanceLR: LineChartData = .init(lines: [lineLeft, lineRight], name: "BalanceLR", header: .balanceLR)

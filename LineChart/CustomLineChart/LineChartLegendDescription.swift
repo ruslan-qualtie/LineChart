@@ -25,6 +25,6 @@ extension LineChartLegendDescription {
     }
     
     static var right: LineChartLegendDescription {
-        .init(name: "Right", symbol: .circle, color: .firstLine)
+        .init(name: "Right", symbol: .circle, color: .secondLine)
     }
 }
