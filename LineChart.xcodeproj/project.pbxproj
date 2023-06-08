@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C33127A529D1950300844411 /* View+chartLegend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33127A429D1950300844411 /* View+chartLegend.swift */; };
-		C33127A729D1AB0100844411 /* SearchRuleAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33127A629D1AB0100844411 /* SearchRuleAnnotationView.swift */; };
-		C33127A929D1AC1C00844411 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33127A829D1AC1C00844411 /* Line.swift */; };
 		C341286E29C49AD90079300B /* PointMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341286D29C49AD90079300B /* PointMarkExampleView.swift */; };
 		C341287029C4B0D60079300B /* AreaMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341286F29C4B0D60079300B /* AreaMarkExampleView.swift */; };
 		C341287229C4B61C0079300B /* BarMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341287129C4B61C0079300B /* BarMarkExampleView.swift */; };
@@ -19,46 +16,48 @@
 		C374BA7C29C9D00700F659C1 /* DateFormatter+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374BA7B29C9D00700F659C1 /* DateFormatter+extensions.swift */; };
 		C374BA7E29C9D05100F659C1 /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374BA7D29C9D05100F659C1 /* Init.swift */; };
 		C374BA8129C9DA1F00F659C1 /* LineChartLegendItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374BA8029C9DA1F00F659C1 /* LineChartLegendItemView.swift */; };
-		C374BA8429C9DD5400F659C1 /* LineChartLegendItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374BA8329C9DD5400F659C1 /* LineChartLegendItem.swift */; };
 		C374BA8629C9E2D800F659C1 /* LineChartHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374BA8529C9E2D800F659C1 /* LineChartHeaderView.swift */; };
 		C374BA8829C9E4DC00F659C1 /* LineChartHeaderContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374BA8729C9E4DC00F659C1 /* LineChartHeaderContent.swift */; };
 		C374BA8A29C9E6BC00F659C1 /* LongitudinalChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374BA8929C9E6BC00F659C1 /* LongitudinalChartView.swift */; };
-		C374BA8C29C9EA2B00F659C1 /* HisoryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374BA8B29C9EA2B00F659C1 /* HisoryHeaderView.swift */; };
-		C380AFAB29BF5DA1000C9B27 /* BarChartStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFAA29BF5DA1000C9B27 /* BarChartStatView.swift */; };
-		C380AFAD29BF5DE1000C9B27 /* BarChartStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFAC29BF5DE1000C9B27 /* BarChartStat.swift */; };
+		C37F79972A30DDFC00C7A1BC /* LongitudinalChartsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37F79962A30DDFC00C7A1BC /* LongitudinalChartsListView.swift */; };
+		C37F799A2A30DF9600C7A1BC /* LongitudinalChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37F79992A30DF9600C7A1BC /* LongitudinalChartData.swift */; };
+		C37F799C2A30E0BA00C7A1BC /* LineChartStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37F799B2A30E0BA00C7A1BC /* LineChartStat.swift */; };
+		C37F799E2A30E15000C7A1BC /* DeltaSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37F799D2A30E15000C7A1BC /* DeltaSide.swift */; };
+		C37F79A02A30E98300C7A1BC /* DeltaChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37F799F2A30E98300C7A1BC /* DeltaChange.swift */; };
 		C380AFAF29BF5E16000C9B27 /* FormattedResultDelta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFAE29BF5E16000C9B27 /* FormattedResultDelta.swift */; };
 		C380AFB129BF5E4A000C9B27 /* DeltaSignificantChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFB029BF5E4A000C9B27 /* DeltaSignificantChange.swift */; };
 		C380AFB329BF5EDB000C9B27 /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFB229BF5EDB000C9B27 /* PreviewContainer.swift */; };
-		C380AFB529BF5F40000C9B27 /* BarChartStat+sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFB429BF5F40000C9B27 /* BarChartStat+sample.swift */; };
-		C380AFB729BF5F87000C9B27 /* FormattedResultDelta+sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFB629BF5F87000C9B27 /* FormattedResultDelta+sample.swift */; };
 		C380AFB929BF5FDE000C9B27 /* String+deltaFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFB829BF5FDE000C9B27 /* String+deltaFormat.swift */; };
 		C380AFBB29BF6041000C9B27 /* Color+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFBA29BF6041000C9B27 /* Color+Palette.swift */; };
-		C380AFBD29BF609C000C9B27 /* ResultDeltaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */; };
 		C380AFBF29BF60E9000C9B27 /* DeltaValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */; };
 		C380AFC129BF6138000C9B27 /* String+Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380AFC029BF6138000C9B27 /* String+Stat.swift */; };
-		C38FBE8D29CDE64C008A01DF /* SelectionRuleAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FBE8C29CDE64C008A01DF /* SelectionRuleAnnotationView.swift */; };
-		C38FBE8F29CDE734008A01DF /* SelectionRuleAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FBE8E29CDE734008A01DF /* SelectionRuleAnnotation.swift */; };
-		C38FBE9129CDEB13008A01DF /* SelectionRuleAnnotationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FBE9029CDEB13008A01DF /* SelectionRuleAnnotationBuilder.swift */; };
-		C3A525AD29D30CEF00F4D2FF /* LineChartLegendDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A525AC29D30CEF00F4D2FF /* LineChartLegendDescription.swift */; };
 		C3D8602B29CDB76600D477E0 /* PointData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D8602A29CDB76600D477E0 /* PointData.swift */; };
 		C3D8602E29CDBA2700D477E0 /* LineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D8602D29CDBA2700D477E0 /* LineChartData.swift */; };
+		C3DBEDFD2A31E3DC00FA059C /* LineData+sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEDFC2A31E3DC00FA059C /* LineData+sample.swift */; };
+		C3DBEDFF2A31E44900FA059C /* LineChartData+sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEDFE2A31E44900FA059C /* LineChartData+sample.swift */; };
+		C3DBEE012A31E48900FA059C /* FormattedResultDelta+sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE002A31E48900FA059C /* FormattedResultDelta+sample.swift */; };
+		C3DBEE032A31E4C800FA059C /* LineChartStat+sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE022A31E4C800FA059C /* LineChartStat+sample.swift */; };
+		C3DBEE052A31E51200FA059C /* LineChartHeaderContent+sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE042A31E51200FA059C /* LineChartHeaderContent+sample.swift */; };
+		C3DBEE072A31E54E00FA059C /* LongitudinalChartData+sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE062A31E54E00FA059C /* LongitudinalChartData+sample.swift */; };
+		C3DBEE092A31E76100FA059C /* LineChartStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE082A31E76100FA059C /* LineChartStatView.swift */; };
+		C3DBEE0B2A31E87B00FA059C /* SidedResultDeltaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE0A2A31E87B00FA059C /* SidedResultDeltaView.swift */; };
+		C3DBEE0D2A31E92700FA059C /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE0C2A31E92700FA059C /* Icons.swift */; };
+		C3DBEE122A31EB3B00FA059C /* StyleDelta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE112A31EB3B00FA059C /* StyleDelta.swift */; };
+		C3DBEE142A31EB7300FA059C /* FormattedResultDelta+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE132A31EB7300FA059C /* FormattedResultDelta+extension.swift */; };
+		C3DBEE172A31EF5E00FA059C /* LineData+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE162A31EF5E00FA059C /* LineData+extensions.swift */; };
+		C3DBEE192A31EFDD00FA059C /* PointData+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE182A31EFDD00FA059C /* PointData+extensions.swift */; };
+		C3DBEE1B2A31F2E800FA059C /* Color+LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE1A2A31F2E800FA059C /* Color+LineChart.swift */; };
+		C3DBEE1D2A31F37100FA059C /* ResultsHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE1C2A31F37100FA059C /* ResultsHistoryView.swift */; };
+		C3DBEE1F2A31F4A100FA059C /* CenterVerticallyInScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE1E2A31F4A100FA059C /* CenterVerticallyInScrollView.swift */; };
 		C3F55F5C29C8ADFA0088D590 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F5B29C8ADFA0088D590 /* LineChartView.swift */; };
-		C3F55F6229C8B2820088D590 /* HisoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F6129C8B2820088D590 /* HisoryViewModel.swift */; };
 		C3F55F6829C8BCEE0088D590 /* Data+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F6729C8BCEE0088D590 /* Data+String.swift */; };
-		C3FDFFD229CCB1D1008F1D49 /* LineChartPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FDFFD129CCB1D1008F1D49 /* LineChartPoint.swift */; };
 		DAF29ACA298D4CB00076095B /* LineChartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF29AC9298D4CB00076095B /* LineChartApp.swift */; };
-		DAF29ACC298D4CB00076095B /* HisoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF29ACB298D4CB00076095B /* HisoryView.swift */; };
 		DAF29ACE298D4CB10076095B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF29ACD298D4CB10076095B /* Assets.xcassets */; };
 		DAF29AD1298D4CB10076095B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF29AD0298D4CB10076095B /* Preview Assets.xcassets */; };
 		DAF29ADB298D52000076095B /* LineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF29ADA298D52000076095B /* LineData.swift */; };
-		DAF29ADD298D528E0076095B /* Date+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF29ADC298D528E0076095B /* Date+extensions.swift */; };
-		DAF29ADF298D52B40076095B /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF29ADE298D52B40076095B /* DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C33127A429D1950300844411 /* View+chartLegend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+chartLegend.swift"; sourceTree = "<group>"; };
-		C33127A629D1AB0100844411 /* SearchRuleAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRuleAnnotationView.swift; sourceTree = "<group>"; };
-		C33127A829D1AC1C00844411 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		C341286D29C49AD90079300B /* PointMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointMarkExampleView.swift; sourceTree = "<group>"; };
 		C341286F29C4B0D60079300B /* AreaMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaMarkExampleView.swift; sourceTree = "<group>"; };
 		C341287129C4B61C0079300B /* BarMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarMarkExampleView.swift; sourceTree = "<group>"; };
@@ -68,42 +67,47 @@
 		C374BA7B29C9D00700F659C1 /* DateFormatter+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+extensions.swift"; sourceTree = "<group>"; };
 		C374BA7D29C9D05100F659C1 /* Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Init.swift; sourceTree = "<group>"; };
 		C374BA8029C9DA1F00F659C1 /* LineChartLegendItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartLegendItemView.swift; sourceTree = "<group>"; };
-		C374BA8329C9DD5400F659C1 /* LineChartLegendItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartLegendItem.swift; sourceTree = "<group>"; };
 		C374BA8529C9E2D800F659C1 /* LineChartHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartHeaderView.swift; sourceTree = "<group>"; };
 		C374BA8729C9E4DC00F659C1 /* LineChartHeaderContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartHeaderContent.swift; sourceTree = "<group>"; };
 		C374BA8929C9E6BC00F659C1 /* LongitudinalChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongitudinalChartView.swift; sourceTree = "<group>"; };
-		C374BA8B29C9EA2B00F659C1 /* HisoryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisoryHeaderView.swift; sourceTree = "<group>"; };
-		C380AFAA29BF5DA1000C9B27 /* BarChartStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartStatView.swift; sourceTree = "<group>"; };
-		C380AFAC29BF5DE1000C9B27 /* BarChartStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartStat.swift; sourceTree = "<group>"; };
+		C37F79962A30DDFC00C7A1BC /* LongitudinalChartsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongitudinalChartsListView.swift; sourceTree = "<group>"; };
+		C37F79992A30DF9600C7A1BC /* LongitudinalChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongitudinalChartData.swift; sourceTree = "<group>"; };
+		C37F799B2A30E0BA00C7A1BC /* LineChartStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartStat.swift; sourceTree = "<group>"; };
+		C37F799D2A30E15000C7A1BC /* DeltaSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaSide.swift; sourceTree = "<group>"; };
+		C37F799F2A30E98300C7A1BC /* DeltaChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaChange.swift; sourceTree = "<group>"; };
 		C380AFAE29BF5E16000C9B27 /* FormattedResultDelta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedResultDelta.swift; sourceTree = "<group>"; };
 		C380AFB029BF5E4A000C9B27 /* DeltaSignificantChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaSignificantChange.swift; sourceTree = "<group>"; };
 		C380AFB229BF5EDB000C9B27 /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
-		C380AFB429BF5F40000C9B27 /* BarChartStat+sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BarChartStat+sample.swift"; sourceTree = "<group>"; };
-		C380AFB629BF5F87000C9B27 /* FormattedResultDelta+sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormattedResultDelta+sample.swift"; sourceTree = "<group>"; };
 		C380AFB829BF5FDE000C9B27 /* String+deltaFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+deltaFormat.swift"; sourceTree = "<group>"; };
 		C380AFBA29BF6041000C9B27 /* Color+Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Palette.swift"; sourceTree = "<group>"; };
-		C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDeltaView.swift; sourceTree = "<group>"; };
 		C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaValueView.swift; sourceTree = "<group>"; };
 		C380AFC029BF6138000C9B27 /* String+Stat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Stat.swift"; sourceTree = "<group>"; };
-		C38FBE8C29CDE64C008A01DF /* SelectionRuleAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionRuleAnnotationView.swift; sourceTree = "<group>"; };
-		C38FBE8E29CDE734008A01DF /* SelectionRuleAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionRuleAnnotation.swift; sourceTree = "<group>"; };
-		C38FBE9029CDEB13008A01DF /* SelectionRuleAnnotationBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionRuleAnnotationBuilder.swift; sourceTree = "<group>"; };
-		C3A525AC29D30CEF00F4D2FF /* LineChartLegendDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartLegendDescription.swift; sourceTree = "<group>"; };
 		C3D8602A29CDB76600D477E0 /* PointData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointData.swift; sourceTree = "<group>"; };
 		C3D8602D29CDBA2700D477E0 /* LineChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartData.swift; sourceTree = "<group>"; };
+		C3DBEDFC2A31E3DC00FA059C /* LineData+sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LineData+sample.swift"; sourceTree = "<group>"; };
+		C3DBEDFE2A31E44900FA059C /* LineChartData+sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LineChartData+sample.swift"; sourceTree = "<group>"; };
+		C3DBEE002A31E48900FA059C /* FormattedResultDelta+sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormattedResultDelta+sample.swift"; sourceTree = "<group>"; };
+		C3DBEE022A31E4C800FA059C /* LineChartStat+sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LineChartStat+sample.swift"; sourceTree = "<group>"; };
+		C3DBEE042A31E51200FA059C /* LineChartHeaderContent+sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LineChartHeaderContent+sample.swift"; sourceTree = "<group>"; };
+		C3DBEE062A31E54E00FA059C /* LongitudinalChartData+sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LongitudinalChartData+sample.swift"; sourceTree = "<group>"; };
+		C3DBEE082A31E76100FA059C /* LineChartStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartStatView.swift; sourceTree = "<group>"; };
+		C3DBEE0A2A31E87B00FA059C /* SidedResultDeltaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidedResultDeltaView.swift; sourceTree = "<group>"; };
+		C3DBEE0C2A31E92700FA059C /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		C3DBEE112A31EB3B00FA059C /* StyleDelta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleDelta.swift; sourceTree = "<group>"; };
+		C3DBEE132A31EB7300FA059C /* FormattedResultDelta+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormattedResultDelta+extension.swift"; sourceTree = "<group>"; };
+		C3DBEE162A31EF5E00FA059C /* LineData+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LineData+extensions.swift"; sourceTree = "<group>"; };
+		C3DBEE182A31EFDD00FA059C /* PointData+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PointData+extensions.swift"; sourceTree = "<group>"; };
+		C3DBEE1A2A31F2E800FA059C /* Color+LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+LineChart.swift"; sourceTree = "<group>"; };
+		C3DBEE1C2A31F37100FA059C /* ResultsHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsHistoryView.swift; sourceTree = "<group>"; };
+		C3DBEE1E2A31F4A100FA059C /* CenterVerticallyInScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVerticallyInScrollView.swift; sourceTree = "<group>"; };
 		C3F55F5B29C8ADFA0088D590 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
-		C3F55F6129C8B2820088D590 /* HisoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisoryViewModel.swift; sourceTree = "<group>"; };
 		C3F55F6729C8BCEE0088D590 /* Data+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+String.swift"; sourceTree = "<group>"; };
-		C3FDFFD129CCB1D1008F1D49 /* LineChartPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartPoint.swift; sourceTree = "<group>"; };
 		DAF29AC6298D4CB00076095B /* LineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF29AC9298D4CB00076095B /* LineChartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartApp.swift; sourceTree = "<group>"; };
-		DAF29ACB298D4CB00076095B /* HisoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisoryView.swift; sourceTree = "<group>"; };
 		DAF29ACD298D4CB10076095B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAF29AD0298D4CB10076095B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DAF29AD2298D4CB10076095B /* LineChart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LineChart.entitlements; sourceTree = "<group>"; };
 		DAF29ADA298D52000076095B /* LineData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineData.swift; sourceTree = "<group>"; };
-		DAF29ADC298D528E0076095B /* Date+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+extensions.swift"; sourceTree = "<group>"; };
-		DAF29ADE298D52B40076095B /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,56 +134,96 @@
 			path = MarkExamples;
 			sourceTree = "<group>";
 		};
-		C374BA8229C9DB6E00F659C1 /* CustomLineChart */ = {
+		C374BA8229C9DB6E00F659C1 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
-				C374BA8329C9DD5400F659C1 /* LineChartLegendItem.swift */,
-				C374BA8029C9DA1F00F659C1 /* LineChartLegendItemView.swift */,
-				C374BA8729C9E4DC00F659C1 /* LineChartHeaderContent.swift */,
-				C374BA8529C9E2D800F659C1 /* LineChartHeaderView.swift */,
-				C3A525AC29D30CEF00F4D2FF /* LineChartLegendDescription.swift */,
-				C3F55F5B29C8ADFA0088D590 /* LineChartView.swift */,
-				C3FDFFD129CCB1D1008F1D49 /* LineChartPoint.swift */,
-				C3D8602D29CDBA2700D477E0 /* LineChartData.swift */,
-				DAF29ADA298D52000076095B /* LineData.swift */,
-				C3D8602A29CDB76600D477E0 /* PointData.swift */,
-				C38FBE8C29CDE64C008A01DF /* SelectionRuleAnnotationView.swift */,
-				C33127A629D1AB0100844411 /* SearchRuleAnnotationView.swift */,
-				C38FBE8E29CDE734008A01DF /* SelectionRuleAnnotation.swift */,
-				C38FBE9029CDEB13008A01DF /* SelectionRuleAnnotationBuilder.swift */,
-				DAF29ADC298D528E0076095B /* Date+extensions.swift */,
-				C33127A429D1950300844411 /* View+chartLegend.swift */,
-				C33127A829D1AC1C00844411 /* Line.swift */,
 			);
-			path = CustomLineChart;
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		C37F79982A30DF7700C7A1BC /* LongitudinalCharts */ = {
+			isa = PBXGroup;
+			children = (
+				C3DBEE0E2A31EA2F00FA059C /* UI */,
+				C3DBEE0F2A31EA4B00FA059C /* Classes */,
+			);
+			path = LongitudinalCharts;
 			sourceTree = "<group>";
 		};
 		C380AFA929BF5D8B000C9B27 /* ScanApp */ = {
 			isa = PBXGroup;
 			children = (
-				C3F55F5529C8A2310088D590 /* Changed */,
-				C380AFBC29BF609C000C9B27 /* ResultDeltaView.swift */,
-				C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */,
-				C380AFAC29BF5DE1000C9B27 /* BarChartStat.swift */,
-				C380AFAE29BF5E16000C9B27 /* FormattedResultDelta.swift */,
-				C380AFB629BF5F87000C9B27 /* FormattedResultDelta+sample.swift */,
-				C380AFB029BF5E4A000C9B27 /* DeltaSignificantChange.swift */,
-				C380AFB229BF5EDB000C9B27 /* PreviewContainer.swift */,
-				C380AFB829BF5FDE000C9B27 /* String+deltaFormat.swift */,
-				C380AFBA29BF6041000C9B27 /* Color+Palette.swift */,
-				C380AFC029BF6138000C9B27 /* String+Stat.swift */,
-				C3F55F6729C8BCEE0088D590 /* Data+String.swift */,
-				C374BA7D29C9D05100F659C1 /* Init.swift */,
+				C37F79982A30DF7700C7A1BC /* LongitudinalCharts */,
+				C3DBEE102A31EA7E00FA059C /* Helpers */,
 			);
 			path = ScanApp;
 			sourceTree = "<group>";
 		};
-		C3F55F5529C8A2310088D590 /* Changed */ = {
+		C3DBEE0E2A31EA2F00FA059C /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				C380AFAA29BF5DA1000C9B27 /* BarChartStatView.swift */,
-				C380AFB429BF5F40000C9B27 /* BarChartStat+sample.swift */,
+				C374BA8229C9DB6E00F659C1 /* Custom */,
+				C3DBEE152A31ED8900FA059C /* Changed */,
+				C37F79962A30DDFC00C7A1BC /* LongitudinalChartsListView.swift */,
+				C374BA8029C9DA1F00F659C1 /* LineChartLegendItemView.swift */,
+				C374BA8929C9E6BC00F659C1 /* LongitudinalChartView.swift */,
+				C374BA8529C9E2D800F659C1 /* LineChartHeaderView.swift */,
+				C3DBEE082A31E76100FA059C /* LineChartStatView.swift */,
+				C3DBEE0A2A31E87B00FA059C /* SidedResultDeltaView.swift */,
+				C380AFBE29BF60E9000C9B27 /* DeltaValueView.swift */,
+				C3F55F5B29C8ADFA0088D590 /* LineChartView.swift */,
+				C380AFB229BF5EDB000C9B27 /* PreviewContainer.swift */,
+				C3DBEE112A31EB3B00FA059C /* StyleDelta.swift */,
+				C3DBEE1E2A31F4A100FA059C /* CenterVerticallyInScrollView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C3DBEE0F2A31EA4B00FA059C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C37F79992A30DF9600C7A1BC /* LongitudinalChartData.swift */,
+				C3DBEE062A31E54E00FA059C /* LongitudinalChartData+sample.swift */,
+				C374BA8729C9E4DC00F659C1 /* LineChartHeaderContent.swift */,
+				C3DBEE042A31E51200FA059C /* LineChartHeaderContent+sample.swift */,
+				C37F799B2A30E0BA00C7A1BC /* LineChartStat.swift */,
+				C3DBEE022A31E4C800FA059C /* LineChartStat+sample.swift */,
+				C380AFAE29BF5E16000C9B27 /* FormattedResultDelta.swift */,
+				C3DBEE132A31EB7300FA059C /* FormattedResultDelta+extension.swift */,
+				C3DBEE002A31E48900FA059C /* FormattedResultDelta+sample.swift */,
+				C37F799D2A30E15000C7A1BC /* DeltaSide.swift */,
+				C37F799F2A30E98300C7A1BC /* DeltaChange.swift */,
+				C3D8602D29CDBA2700D477E0 /* LineChartData.swift */,
+				C3DBEDFE2A31E44900FA059C /* LineChartData+sample.swift */,
+				DAF29ADA298D52000076095B /* LineData.swift */,
+				C3DBEE162A31EF5E00FA059C /* LineData+extensions.swift */,
+				C3DBEDFC2A31E3DC00FA059C /* LineData+sample.swift */,
+				C3D8602A29CDB76600D477E0 /* PointData.swift */,
+				C3DBEE182A31EFDD00FA059C /* PointData+extensions.swift */,
+				C380AFB029BF5E4A000C9B27 /* DeltaSignificantChange.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C3DBEE102A31EA7E00FA059C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C380AFBA29BF6041000C9B27 /* Color+Palette.swift */,
 				C374BA7B29C9D00700F659C1 /* DateFormatter+extensions.swift */,
+				C3DBEE0C2A31E92700FA059C /* Icons.swift */,
+				C374BA7D29C9D05100F659C1 /* Init.swift */,
+				C380AFB829BF5FDE000C9B27 /* String+deltaFormat.swift */,
+				C380AFC029BF6138000C9B27 /* String+Stat.swift */,
+				C3F55F6729C8BCEE0088D590 /* Data+String.swift */,
+				C3DBEE1A2A31F2E800FA059C /* Color+LineChart.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C3DBEE152A31ED8900FA059C /* Changed */ = {
+			isa = PBXGroup;
+			children = (
+				C3DBEE1C2A31F37100FA059C /* ResultsHistoryView.swift */,
 			);
 			path = Changed;
 			sourceTree = "<group>";
@@ -203,15 +247,9 @@
 		DAF29AC8298D4CB00076095B /* LineChart */ = {
 			isa = PBXGroup;
 			children = (
+				DAF29AC9298D4CB00076095B /* LineChartApp.swift */,
 				C380AFA929BF5D8B000C9B27 /* ScanApp */,
 				C341287529C4C8C40079300B /* MarkExamples */,
-				C374BA8229C9DB6E00F659C1 /* CustomLineChart */,
-				DAF29AC9298D4CB00076095B /* LineChartApp.swift */,
-				DAF29ACB298D4CB00076095B /* HisoryView.swift */,
-				C3F55F6129C8B2820088D590 /* HisoryViewModel.swift */,
-				C374BA8B29C9EA2B00F659C1 /* HisoryHeaderView.swift */,
-				C374BA8929C9E6BC00F659C1 /* LongitudinalChartView.swift */,
-				DAF29ADE298D52B40076095B /* DataSource.swift */,
 				DAF29ACD298D4CB10076095B /* Assets.xcassets */,
 				DAF29AD2298D4CB10076095B /* LineChart.entitlements */,
 				DAF29ACF298D4CB10076095B /* Preview Content */,
@@ -299,48 +337,50 @@
 			files = (
 				C374BA7C29C9D00700F659C1 /* DateFormatter+extensions.swift in Sources */,
 				C341287229C4B61C0079300B /* BarMarkExampleView.swift in Sources */,
+				C3DBEE192A31EFDD00FA059C /* PointData+extensions.swift in Sources */,
+				C3DBEE122A31EB3B00FA059C /* StyleDelta.swift in Sources */,
 				C341286E29C49AD90079300B /* PointMarkExampleView.swift in Sources */,
-				C374BA8C29C9EA2B00F659C1 /* HisoryHeaderView.swift in Sources */,
-				C38FBE8F29CDE734008A01DF /* SelectionRuleAnnotation.swift in Sources */,
-				C3A525AD29D30CEF00F4D2FF /* LineChartLegendDescription.swift in Sources */,
-				DAF29ADF298D52B40076095B /* DataSource.swift in Sources */,
-				DAF29ADD298D528E0076095B /* Date+extensions.swift in Sources */,
 				C380AFC129BF6138000C9B27 /* String+Stat.swift in Sources */,
-				C33127A929D1AC1C00844411 /* Line.swift in Sources */,
+				C3DBEE032A31E4C800FA059C /* LineChartStat+sample.swift in Sources */,
+				C37F79A02A30E98300C7A1BC /* DeltaChange.swift in Sources */,
+				C37F799C2A30E0BA00C7A1BC /* LineChartStat.swift in Sources */,
+				C37F79972A30DDFC00C7A1BC /* LongitudinalChartsListView.swift in Sources */,
 				C380AFBB29BF6041000C9B27 /* Color+Palette.swift in Sources */,
-				DAF29ACC298D4CB00076095B /* HisoryView.swift in Sources */,
 				C380AFBF29BF60E9000C9B27 /* DeltaValueView.swift in Sources */,
+				C3DBEE092A31E76100FA059C /* LineChartStatView.swift in Sources */,
 				C341287929C4DB650079300B /* RuleMarkExampleView.swift in Sources */,
+				C3DBEE012A31E48900FA059C /* FormattedResultDelta+sample.swift in Sources */,
 				C374BA8829C9E4DC00F659C1 /* LineChartHeaderContent.swift in Sources */,
-				C380AFB729BF5F87000C9B27 /* FormattedResultDelta+sample.swift in Sources */,
-				C374BA8429C9DD5400F659C1 /* LineChartLegendItem.swift in Sources */,
-				C33127A729D1AB0100844411 /* SearchRuleAnnotationView.swift in Sources */,
+				C3DBEE052A31E51200FA059C /* LineChartHeaderContent+sample.swift in Sources */,
+				C3DBEDFF2A31E44900FA059C /* LineChartData+sample.swift in Sources */,
 				DAF29ACA298D4CB00076095B /* LineChartApp.swift in Sources */,
 				C380AFB929BF5FDE000C9B27 /* String+deltaFormat.swift in Sources */,
-				C38FBE9129CDEB13008A01DF /* SelectionRuleAnnotationBuilder.swift in Sources */,
+				C3DBEE1B2A31F2E800FA059C /* Color+LineChart.swift in Sources */,
 				C380AFB329BF5EDB000C9B27 /* PreviewContainer.swift in Sources */,
 				C380AFAF29BF5E16000C9B27 /* FormattedResultDelta.swift in Sources */,
-				C3FDFFD229CCB1D1008F1D49 /* LineChartPoint.swift in Sources */,
-				C380AFAD29BF5DE1000C9B27 /* BarChartStat.swift in Sources */,
-				C380AFBD29BF609C000C9B27 /* ResultDeltaView.swift in Sources */,
-				C3F55F6229C8B2820088D590 /* HisoryViewModel.swift in Sources */,
+				C3DBEE0D2A31E92700FA059C /* Icons.swift in Sources */,
 				C374BA8129C9DA1F00F659C1 /* LineChartLegendItemView.swift in Sources */,
 				C374BA8629C9E2D800F659C1 /* LineChartHeaderView.swift in Sources */,
-				C380AFB529BF5F40000C9B27 /* BarChartStat+sample.swift in Sources */,
+				C3DBEE1D2A31F37100FA059C /* ResultsHistoryView.swift in Sources */,
+				C3DBEE142A31EB7300FA059C /* FormattedResultDelta+extension.swift in Sources */,
+				C3DBEDFD2A31E3DC00FA059C /* LineData+sample.swift in Sources */,
 				C3F55F6829C8BCEE0088D590 /* Data+String.swift in Sources */,
-				C380AFAB29BF5DA1000C9B27 /* BarChartStatView.swift in Sources */,
-				C33127A529D1950300844411 /* View+chartLegend.swift in Sources */,
 				C380AFB129BF5E4A000C9B27 /* DeltaSignificantChange.swift in Sources */,
 				C374BA8A29C9E6BC00F659C1 /* LongitudinalChartView.swift in Sources */,
+				C3DBEE1F2A31F4A100FA059C /* CenterVerticallyInScrollView.swift in Sources */,
 				C3D8602E29CDBA2700D477E0 /* LineChartData.swift in Sources */,
 				C374BA7E29C9D05100F659C1 /* Init.swift in Sources */,
 				C3F55F5C29C8ADFA0088D590 /* LineChartView.swift in Sources */,
-				C38FBE8D29CDE64C008A01DF /* SelectionRuleAnnotationView.swift in Sources */,
+				C37F799E2A30E15000C7A1BC /* DeltaSide.swift in Sources */,
 				C341287429C4C2CC0079300B /* RectangleMarkExampleView.swift in Sources */,
+				C3DBEE0B2A31E87B00FA059C /* SidedResultDeltaView.swift in Sources */,
+				C3DBEE072A31E54E00FA059C /* LongitudinalChartData+sample.swift in Sources */,
 				C341287029C4B0D60079300B /* AreaMarkExampleView.swift in Sources */,
 				C341287729C4CA360079300B /* LineMarkExampleView.swift in Sources */,
 				DAF29ADB298D52000076095B /* LineData.swift in Sources */,
+				C37F799A2A30DF9600C7A1BC /* LongitudinalChartData.swift in Sources */,
 				C3D8602B29CDB76600D477E0 /* PointData.swift in Sources */,
+				C3DBEE172A31EF5E00FA059C /* LineData+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,8 +4,17 @@ import SwiftUI
 struct LineChartApp: App {
     var body: some Scene {
         WindowGroup {
-            HisoryView()
+            ScrollView {
+                ResultsHistoryView(
+                    longitudinalCharts: [
+                        .sampleJumpHeight,
+                        .sampleJump,
+                        .sampleBalanceLR
+                    ]
+                )
+                .frame(width: 1_240)
                 .background(Color("background"))
+            }
         }
     }
 }
