@@ -32,23 +32,7 @@ struct LineChartView: View {
         }
     }
 
-    @AxisContentBuilder
     private var riskChartYAxisContent: some AxisContent {
-        AxisMarks(
-            position: .leading,
-            values: InjuryRisk
-                .allCases
-                .map(\.rawValue)
-                .filter { $0 % 2 != 0 }
-        ) {
-            let value = InjuryRiskFormatter().format($0.as(Float.self))
-            
-            AxisValueLabel(horizontalSpacing: 8) {
-                Text(value)
-            }
-            .foregroundStyle(Color.axisValueLabel)
-        }
-        
         AxisMarks(
             position: .leading,
             values: InjuryRisk
@@ -57,6 +41,13 @@ struct LineChartView: View {
         ) {
             AxisGridLine(stroke: StrokeStyle(lineWidth: 1.0))
                 .foregroundStyle(Color.axisGridLine)
+            
+            AxisValueLabel(
+                format: InjuryRiskFormatStyle(),
+                horizontalSpacing: 8
+            )
+            .foregroundStyle(Color.axisValueLabel)
+
         }
     }
     

@@ -52,6 +52,7 @@
 		C3DBEE222A32184200FA059C /* InjuryRisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE212A32184200FA059C /* InjuryRisk.swift */; };
 		C3DBEE242A321F9400FA059C /* InjuryRiskFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE232A321F9400FA059C /* InjuryRiskFormatter.swift */; };
 		C3DBEE262A321FDA00FA059C /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE252A321FDA00FA059C /* Initializable.swift */; };
+		C3DBEE282A32465300FA059C /* InjuryRiskFormatStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEE272A32465300FA059C /* InjuryRiskFormatStyle.swift */; };
 		C3F55F5C29C8ADFA0088D590 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F5B29C8ADFA0088D590 /* LineChartView.swift */; };
 		C3F55F6829C8BCEE0088D590 /* Data+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F55F6729C8BCEE0088D590 /* Data+String.swift */; };
 		DAF29ACA298D4CB00076095B /* LineChartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF29AC9298D4CB00076095B /* LineChartApp.swift */; };
@@ -106,6 +107,7 @@
 		C3DBEE212A32184200FA059C /* InjuryRisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjuryRisk.swift; sourceTree = "<group>"; };
 		C3DBEE232A321F9400FA059C /* InjuryRiskFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjuryRiskFormatter.swift; sourceTree = "<group>"; };
 		C3DBEE252A321FDA00FA059C /* Initializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializable.swift; sourceTree = "<group>"; };
+		C3DBEE272A32465300FA059C /* InjuryRiskFormatStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjuryRiskFormatStyle.swift; sourceTree = "<group>"; };
 		C3F55F5B29C8ADFA0088D590 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
 		C3F55F6729C8BCEE0088D590 /* Data+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+String.swift"; sourceTree = "<group>"; };
 		DAF29AC6298D4CB00076095B /* LineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,6 +203,7 @@
 				C380AFB029BF5E4A000C9B27 /* DeltaSignificantChange.swift */,
 				C3DBEE212A32184200FA059C /* InjuryRisk.swift */,
 				C3DBEE232A321F9400FA059C /* InjuryRiskFormatter.swift */,
+				C3DBEE272A32465300FA059C /* InjuryRiskFormatStyle.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				C374BA8829C9E4DC00F659C1 /* LineChartHeaderContent.swift in Sources */,
 				C3DBEE052A31E51200FA059C /* LineChartHeaderContent+sample.swift in Sources */,
 				C3DBEDFF2A31E44900FA059C /* LineChartData+sample.swift in Sources */,
+				C3DBEE282A32465300FA059C /* InjuryRiskFormatStyle.swift in Sources */,
 				DAF29ACA298D4CB00076095B /* LineChartApp.swift in Sources */,
 				C380AFB929BF5FDE000C9B27 /* String+deltaFormat.swift in Sources */,
 				C3DBEE1B2A31F2E800FA059C /* Color+LineChart.swift in Sources */,
