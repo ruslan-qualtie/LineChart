@@ -23,6 +23,7 @@ public struct LongitudinalChartView_Previews: PreviewProvider {
     public static var previews: some View {
         PreviewContainer(
             [
+                LongitudinalChartView(dataSource: .sampleRisk),
                 LongitudinalChartView(dataSource: .sampleJumpHeight),
                 LongitudinalChartView(dataSource: .sampleBalanceLR),
                 LongitudinalChartView(dataSource: .sampleJump)

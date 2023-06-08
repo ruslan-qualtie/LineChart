@@ -17,6 +17,7 @@ struct LongitudinalChartsListView: View {
 public struct LongitudinalChartsListView_Previews: PreviewProvider {
     public static var previews: some View {
         LongitudinalChartsListView(dataSources: [
+            .sampleRisk,
             .sampleJumpHeight,
             .sampleJump,
             .sampleBalanceLR

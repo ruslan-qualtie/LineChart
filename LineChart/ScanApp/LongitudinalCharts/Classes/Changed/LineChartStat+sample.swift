@@ -48,4 +48,10 @@ extension LineChartStat {
         score: "8% Right",
         delta: .sampleRightNegative
     )
+    
+    static let sampleInjuryRiskNegative = LineChartStat(
+        title: "Risk",
+        score: "High",
+        delta: .sampleFallRiskNegative
+    )
 }

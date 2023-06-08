@@ -12,4 +12,8 @@ extension LineChartData {
     public static var sampleChartJump: LineChartData {
         .init(lines: [.sampleLineJumpLoad, .sampleLineJumpExpload, .sampleLineJumpDrive], name: "Jump")
     }
+    
+    public static var sampleInjuryRisk: LineChartData {
+        .init(lines: [.sampleLineInjuryRisk], name: "Risk")
+    }
 }

@@ -15,4 +15,9 @@ extension LongitudinalChartData {
         data: .sampleChartJump,
         header: .sampleJump
     )
+    
+    static let sampleRisk = LongitudinalChartData(
+        data: .sampleInjuryRisk,
+        header: .sampleRisk
+    )
 }

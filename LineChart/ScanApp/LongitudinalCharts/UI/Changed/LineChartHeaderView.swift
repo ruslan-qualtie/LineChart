@@ -48,7 +48,8 @@ public struct LineChartHeaderView_Previews: PreviewProvider {
             [
                 LineChartHeaderView(content: .sampleJumpHeight),
                 LineChartHeaderView(content: .sampleBalanceLR),
-                LineChartHeaderView(content: .sampleJump)
+                LineChartHeaderView(content: .sampleJump),
+                LineChartHeaderView(content: .sampleRisk)
             ]
         )
         .frame(minWidth: 1_240, minHeight: 72)

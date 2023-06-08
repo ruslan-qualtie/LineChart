@@ -12,8 +12,8 @@ extension LineChartHeaderContent {
     static var sampleBalanceLR: LineChartHeaderContent {
         .init(
             title: "Balance L/R",
-            description: "The Balance Scan consists of a series of single leg balance trials and is utilized to assess balance, "
-                + "stability, and proprioception.",
+            description: "The Balance Signature represents an individual’s ability to maintain balance by minimizing motion and making "
+            + "complex adjustments. A score of 50 is the population average, with typical scores ranging between 40-60.",
             stats: [.sampleBalanceLeftUnsidedNegativeDelta, .sampleBalanceRightUnsidedPositiveDelta]
         )
     }
@@ -21,8 +21,18 @@ extension LineChartHeaderContent {
     static var sampleJump: LineChartHeaderContent {
         .init(
             title: "Jump",
-            description: "The Jump Scan consists of a series of vertical jumps and is utilized to assess dynamic movement strategy and efficiency.",
+            description: "Derived from the most recent Jump Scan, Risk stratifies relative musculoskeletal injury risk utilizing our "
+            + "base athletic population model.",
             stats: [.sampleJumpLoadUnsidedNegativeDelta, .sampleJumpExplodeUnsidedPositiveDelta, .sampleJumpDriveUnsidedPositiveDelta]
+        )
+    }
+    
+    static var sampleRisk: LineChartHeaderContent {
+        .init(
+            title: "Risk",
+            description: "Derived from the most recent Jump Scan, Risk stratifies relative musculoskeletal injury risk utilizing our "
+            + "base athletic population model.",
+            stats: [.sampleInjuryRiskNegative]
         )
     }
 }

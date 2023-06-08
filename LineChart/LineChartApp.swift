@@ -9,10 +9,12 @@ struct LineChartApp: App {
                     longitudinalCharts: [
                         .sampleJumpHeight,
                         .sampleJump,
-                        .sampleBalanceLR
+                        .sampleBalanceLR,
+                        .sampleRisk
                     ]
                 )
                 .frame(width: 1_240)
+                .padding(30)
                 .background(Color("background"))
             }
         }

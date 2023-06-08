@@ -23,12 +23,49 @@ struct LineChartView: View {
         }
     }
 
-    private var chartYAxisContent: some AxisContent {
+    private var commonChartYAxisContent: some AxisContent {
         AxisMarks(position: .leading) {
             AxisGridLine(stroke: StrokeStyle(lineWidth: 1.0))
                 .foregroundStyle(Color.axisGridLine)
             AxisValueLabel(horizontalSpacing: 8)
                 .foregroundStyle(Color.axisValueLabel)
+        }
+    }
+
+    @AxisContentBuilder
+    private var riskChartYAxisContent: some AxisContent {
+        AxisMarks(
+            position: .leading,
+            values: InjuryRisk
+                .allCases
+                .map(\.rawValue)
+                .filter { $0 % 2 != 0 }
+        ) {
+            let value = InjuryRiskFormatter().format($0.as(Float.self))
+            
+            AxisValueLabel(horizontalSpacing: 8) {
+                Text(value)
+            }
+            .foregroundStyle(Color.axisValueLabel)
+        }
+        
+        AxisMarks(
+            position: .leading,
+            values: InjuryRisk
+                .allCases
+                .map(\.rawValue)
+        ) {
+            AxisGridLine(stroke: StrokeStyle(lineWidth: 1.0))
+                .foregroundStyle(Color.axisGridLine)
+        }
+    }
+    
+    @AxisContentBuilder
+    private var chartYAxisContent: some AxisContent {
+        if chartData.name == "Risk" {
+            riskChartYAxisContent
+        } else {
+            commonChartYAxisContent
         }
     }
 
@@ -63,6 +100,8 @@ public struct LineChartView_Previews: PreviewProvider {
     public static var previews: some View {
         PreviewContainer(
             [
+                LineChartView(chartData: .sampleInjuryRisk)
+                    .padding(),
                 LineChartView(chartData: .sampleChartJumpHeight)
                     .padding(),
                 LineChartView(chartData: .sampleChartBalanceLR)

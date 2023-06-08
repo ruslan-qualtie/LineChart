@@ -150,6 +150,31 @@ extension LineData {
             name: "Drive"
         )
     }
+    
+    static var sampleLineInjuryRisk: LineData {
+        .init(
+            points:
+                [
+                    .init(date: .date(from: "2023-01-01T00:00:00"), value: 5),
+                    .init(date: .date(from: "2023-01-03T00:00:00"), value: 4),
+                    .init(date: .date(from: "2023-01-04T00:00:00"), value: 4),
+                    .init(date: .date(from: "2023-01-26T00:00:00"), value: 5),
+                    .init(date: .date(from: "2023-01-27T00:00:00"), value: 6),
+                    .init(date: .date(from: "2023-01-28T00:00:00"), value: 5),
+                    .init(date: .date(from: "2023-01-29T00:00:00"), value: 3),
+                    .init(date: .date(from: "2023-01-30T00:00:00"), value: 1),
+                    .init(date: .date(from: "2023-01-31T00:00:00"), value: 0),
+                    .init(date: .date(from: "2023-02-06T00:00:00"), value: 1),
+                    .init(date: .date(from: "2023-02-08T00:00:00"), value: 2),
+                    .init(date: .date(from: "2023-02-12T00:00:00"), value: 3),
+                    .init(date: .date(from: "2023-02-16T00:00:00"), value: 4),
+                    .init(date: .date(from: "2023-02-22T00:00:00"), value: 4),
+                    .init(date: .date(from: "2023-02-23T00:00:00"), value: 3),
+                    .init(date: .date(from: "2023-02-26T00:00:00"), value: 5)
+                ],
+            name: "Drive"
+        )
+    }
 }
 
 fileprivate extension DateFormatter {
