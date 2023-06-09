@@ -24,7 +24,10 @@ struct LineChartView: View {
     }
 
     private var commonChartYAxisContent: some AxisContent {
-        AxisMarks(position: .leading) {
+        AxisMarks(
+            position: .leading,
+            values: .automatic(desiredCount: 5)
+        ) {
             AxisGridLine(stroke: StrokeStyle(lineWidth: 1.0))
                 .foregroundStyle(Color.axisGridLine)
             AxisValueLabel(horizontalSpacing: 8)
@@ -82,6 +85,7 @@ struct LineChartView: View {
             .chartLegend(.hidden)
             .chartXAxis { chartXAxisContent }
             .chartYAxis { chartYAxisContent }
+            .chartYScale(domain: .automatic(includesZero: false))
         }
     }
 }
