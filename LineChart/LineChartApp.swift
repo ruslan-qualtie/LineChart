@@ -13,9 +13,11 @@ struct LineChartApp: App {
                         .sampleRisk
                     ]
                 )
-                .frame(width: 1_240)
                 .padding(30)
                 .background(Color("background"))
+                #if os(macOS)
+                .frame(minWidth: 1_240, minHeight: 800)
+                #endif
             }
         }
     }

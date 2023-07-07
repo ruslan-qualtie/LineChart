@@ -5,6 +5,9 @@ struct LineChartView: View {
     private let chartData: LineChartData
     private let locale: Locale
 
+    @State private var selectedDate: Date?
+    @State private var isInteract = false
+
     private let chartForegroundStyleRange: [Color] = [
         .firstLine,
         .secondLine,
@@ -79,6 +82,7 @@ struct LineChartView: View {
                     .foregroundStyle(by: line.plottableName)
                     .lineStyle(StrokeStyle(lineWidth: 2))
                 }
+                selectionRule
             }
             .chartForegroundStyleScale(range: chartForegroundStyleRange)
             .chartLegend(.hidden)
@@ -89,7 +93,70 @@ struct LineChartView: View {
                     includesZero: chartData.hasSinglePoint
                 )
             )
+            .chartOverlay { chart in
+                GeometryReader { geo in
+                    Rectangle().fill(.clear).contentShape(Rectangle())
+                    #if os(macOS)
+                        .onContinuousHover { phase in
+                            switch phase {
+                            case .active(let loc):
+                                setSelectionBy(
+                                    loc: loc,
+                                    geo: geo,
+                                    chart: chart
+                                )
+                            case .ended:
+                                endInteraction()
+                            }
+                        }
+                    #elseif os(iOS)
+                        .simultaneousGesture(
+                            DragGesture(minimumDistance: 0)
+                                .onEnded { _ in
+                                    endInteraction()
+                                }
+                                .onChanged { value in
+                                    setSelectionBy(
+                                        loc: value.location,
+                                        geo: geo,
+                                        chart: chart
+                                    )
+                                },
+                            including: .gesture
+                        )
+                    #endif
+                }
+            }
         }
+    }
+    
+    @ChartContentBuilder
+    private var selectionRule: some ChartContent {
+        if showSelectionRule {
+            RuleMark(x: .value("Selected Date", selectedDate!))
+            .foregroundStyle(Color.axisValueLabel)
+            .lineStyle(StrokeStyle(lineWidth: 1, dash: [5]))
+        }
+    }
+    
+    private var showSelectionRule: Bool {
+        isInteract && selectedDate != nil
+    }
+    
+    private func endInteraction() {
+        isInteract = false
+        selectedDate = nil
+    }
+    
+    private func setSelectionBy(loc: CGPoint, geo: GeometryProxy, chart: ChartProxy) {
+        let frame = geo[chart.plotAreaFrame]
+        guard frame.contains(loc) else {
+            endInteraction()
+            return
+        }
+        isInteract = true
+        let locationX = loc.x - frame.origin.x
+        selectedDate = chart.value(atX: locationX, as: (Date).self)!
     }
 }
 
