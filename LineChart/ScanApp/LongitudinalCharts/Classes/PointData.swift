@@ -12,3 +12,5 @@ public struct PointData {
 }
 
 extension PointData: Equatable {}
+
+extension PointData: Hashable {}

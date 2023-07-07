@@ -2,11 +2,17 @@ import Foundation
 
 public struct LineChartData {
     public let lines: [LineData]
-    public let name: String
+    public let yAxisLabels: AxisLabels?
 
-    public init(lines: [LineData], name: String) {
+    public init(lines: [LineData], yAxisLabels: AxisLabels? = nil) {
         self.lines = lines
-        self.name = name
+        self.yAxisLabels = yAxisLabels
+    }
+}
+
+extension LineChartData {
+    public var hasSinglePoint: Bool {
+        Set(lines.flatMap(\.points)).count == 1
     }
 }
 

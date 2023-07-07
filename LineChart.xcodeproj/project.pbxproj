@@ -13,6 +13,8 @@
 		C341287429C4C2CC0079300B /* RectangleMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341287329C4C2CC0079300B /* RectangleMarkExampleView.swift */; };
 		C341287729C4CA360079300B /* LineMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341287629C4CA360079300B /* LineMarkExampleView.swift */; };
 		C341287929C4DB650079300B /* RuleMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341287829C4DB650079300B /* RuleMarkExampleView.swift */; };
+		C3646BA32A5848FA000B7942 /* AxisLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3646BA22A5848FA000B7942 /* AxisLabels.swift */; };
+		C3646BA52A584933000B7942 /* Collection+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3646BA42A584933000B7942 /* Collection+extensions.swift */; };
 		C374BA7C29C9D00700F659C1 /* DateFormatter+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374BA7B29C9D00700F659C1 /* DateFormatter+extensions.swift */; };
 		C374BA7E29C9D05100F659C1 /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374BA7D29C9D05100F659C1 /* Init.swift */; };
 		C374BA8129C9DA1F00F659C1 /* LineChartLegendItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374BA8029C9DA1F00F659C1 /* LineChartLegendItemView.swift */; };
@@ -68,6 +70,8 @@
 		C341287329C4C2CC0079300B /* RectangleMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleMarkExampleView.swift; sourceTree = "<group>"; };
 		C341287629C4CA360079300B /* LineMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineMarkExampleView.swift; sourceTree = "<group>"; };
 		C341287829C4DB650079300B /* RuleMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleMarkExampleView.swift; sourceTree = "<group>"; };
+		C3646BA22A5848FA000B7942 /* AxisLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisLabels.swift; sourceTree = "<group>"; };
+		C3646BA42A584933000B7942 /* Collection+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+extensions.swift"; sourceTree = "<group>"; };
 		C374BA7B29C9D00700F659C1 /* DateFormatter+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+extensions.swift"; sourceTree = "<group>"; };
 		C374BA7D29C9D05100F659C1 /* Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Init.swift; sourceTree = "<group>"; };
 		C374BA8029C9DA1F00F659C1 /* LineChartLegendItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartLegendItemView.swift; sourceTree = "<group>"; };
@@ -204,6 +208,8 @@
 				C3DBEE212A32184200FA059C /* InjuryRisk.swift */,
 				C3DBEE232A321F9400FA059C /* InjuryRiskFormatter.swift */,
 				C3DBEE272A32465300FA059C /* InjuryRiskFormatStyle.swift */,
+				C3646BA22A5848FA000B7942 /* AxisLabels.swift */,
+				C3646BA42A584933000B7942 /* Collection+extensions.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -365,12 +371,14 @@
 				C3DBEE032A31E4C800FA059C /* LineChartStat+sample.swift in Sources */,
 				C3DBEE222A32184200FA059C /* InjuryRisk.swift in Sources */,
 				C37F79A02A30E98300C7A1BC /* DeltaChange.swift in Sources */,
+				C3646BA32A5848FA000B7942 /* AxisLabels.swift in Sources */,
 				C37F799C2A30E0BA00C7A1BC /* LineChartStat.swift in Sources */,
 				C37F79972A30DDFC00C7A1BC /* LongitudinalChartsListView.swift in Sources */,
 				C380AFBB29BF6041000C9B27 /* Color+Palette.swift in Sources */,
 				C380AFBF29BF60E9000C9B27 /* DeltaValueView.swift in Sources */,
 				C3DBEE092A31E76100FA059C /* LineChartStatView.swift in Sources */,
 				C341287929C4DB650079300B /* RuleMarkExampleView.swift in Sources */,
+				C3646BA52A584933000B7942 /* Collection+extensions.swift in Sources */,
 				C3DBEE012A31E48900FA059C /* FormattedResultDelta+sample.swift in Sources */,
 				C374BA8829C9E4DC00F659C1 /* LineChartHeaderContent.swift in Sources */,
 				C3DBEE052A31E51200FA059C /* LineChartHeaderContent+sample.swift in Sources */,

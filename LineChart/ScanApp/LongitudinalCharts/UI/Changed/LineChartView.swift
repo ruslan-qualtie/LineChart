@@ -3,6 +3,7 @@ import SwiftUI
 
 struct LineChartView: View {
     private let chartData: LineChartData
+    private let locale: Locale
 
     private let chartForegroundStyleRange: [Color] = [
         .firstLine,
@@ -16,7 +17,7 @@ struct LineChartView: View {
                 format: .dateTime
                     .day(.twoDigits)
                     .month(.twoDigits)
-                    .locale(Locale(identifier: "en_US")),
+                    .locale(locale),
                 verticalSpacing: 20
             )
             .foregroundStyle(Color.axisValueLabel)
@@ -35,37 +36,35 @@ struct LineChartView: View {
         }
     }
 
-    private var riskChartYAxisContent: some AxisContent {
+    @AxisContentBuilder
+    private func customChartYAxisContent(labels: AxisLabels) -> some AxisContent {
         AxisMarks(
             position: .leading,
-            values: InjuryRisk
-                .allCases
-                .map(\.rawValue)
+            values: labels.values
         ) {
+            let value = $0.as(Double.self)!
+            AxisValueLabel(horizontalSpacing: 8) {
+                Text(labels.string(for: value))
+            }
+            .foregroundStyle(Color.axisValueLabel)
             AxisGridLine(stroke: StrokeStyle(lineWidth: 1.0))
                 .foregroundStyle(Color.axisGridLine)
-            
-            AxisValueLabel(
-                format: InjuryRiskFormatStyle(),
-                horizontalSpacing: 8
-            )
-            .foregroundStyle(Color.axisValueLabel)
-
         }
     }
-    
+
     @AxisContentBuilder
     private var chartYAxisContent: some AxisContent {
-        if chartData.name == "Risk" {
-            riskChartYAxisContent
+        if let yAxisLabels = chartData.yAxisLabels {
+            customChartYAxisContent(labels: yAxisLabels)
         } else {
             commonChartYAxisContent
         }
     }
 
     // workaround for #coverage
-    public init(chartData: LineChartData) {
+    public init(chartData: LineChartData, locale: Locale = .current) {
         self.chartData = chartData
+        self.locale = locale
     }
 
     var body: some View {
@@ -85,7 +84,11 @@ struct LineChartView: View {
             .chartLegend(.hidden)
             .chartXAxis { chartXAxisContent }
             .chartYAxis { chartYAxisContent }
-            .chartYScale(domain: .automatic(includesZero: false))
+            .chartYScale(
+                domain: .automatic(
+                    includesZero: chartData.hasSinglePoint
+                )
+            )
         }
     }
 }
@@ -95,14 +98,55 @@ public struct LineChartView_Previews: PreviewProvider {
     public static var previews: some View {
         PreviewContainer(
             [
-                LineChartView(chartData: .sampleInjuryRisk)
-                    .padding(),
-                LineChartView(chartData: .sampleChartJumpHeight)
-                    .padding(),
-                LineChartView(chartData: .sampleChartBalanceLR)
-                    .padding(),
-                LineChartView(chartData: .sampleChartJump)
-                    .padding()
+                LineChartView(
+                    chartData: .sampleChartJumpHeight,
+                    locale: Locale(identifier: "en_US")
+                )
+                .padding(),
+                LineChartView(
+                    chartData: .sampleChartBalanceLR,
+                    locale: Locale(identifier: "en_US")
+                )
+                .padding(),
+                LineChartView(
+                    chartData: .sampleChartJump,
+                    locale: Locale(identifier: "en_US")
+                )
+                .padding(),
+                LineChartView(
+                    chartData: .sampleInjuryRisk,
+                    locale: Locale(identifier: "en_US")
+                )
+                .padding()
+            ],
+            itemSize: .init(width: 1_000, height: 376))
+    }
+}
+
+public struct LineChartViewOnePoint_Previews: PreviewProvider {
+    public static var previews: some View {
+        PreviewContainer(
+            [
+                LineChartView(
+                    chartData: .sampleChartJumpHeightOnePoint,
+                    locale: Locale(identifier: "en_US")
+                )
+                .padding(),
+                LineChartView(
+                    chartData: .sampleChartBalanceLROnePoint,
+                    locale: Locale(identifier: "en_US")
+                )
+                .padding(),
+                LineChartView(
+                    chartData: .sampleChartJumpOnePoint,
+                    locale: Locale(identifier: "en_US")
+                )
+                .padding(),
+                LineChartView(
+                    chartData: .sampleInjuryRiskOnePoint,
+                    locale: Locale(identifier: "en_US")
+                )
+                .padding()
             ],
             itemSize: .init(width: 1_000, height: 376))
     }

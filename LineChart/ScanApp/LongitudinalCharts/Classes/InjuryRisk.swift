@@ -22,4 +22,16 @@ extension InjuryRisk {
         case .high: return "High"
         }
     }
+
+    private var doubleValue: Double {
+        Double(rawValue)
+    }
+
+    public static var yAxisLabels: AxisLabels {
+        .init(
+            InjuryRisk
+                .allCases
+                .makeUniqueMap(withKey: \.doubleValue, value: \.name)
+        )
+    }
 }

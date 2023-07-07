@@ -26,6 +26,16 @@ extension LineData {
         )
     }
 
+    static var sampleLineJumpHeightOnePoint: LineData {
+        .init(
+            points:
+                [
+                    .init(date: .date(from: "2023-01-01T00:00:00"), value: 13)
+                ],
+            name: "Jump Height"
+        )
+    }
+
     static var sampleLineBalanceLeft: LineData {
         .init(
             points:
@@ -46,6 +56,16 @@ extension LineData {
                     .init(date: .date(from: "2023-02-22T00:00:00"), value: 54),
                     .init(date: .date(from: "2023-02-23T00:00:00"), value: 63),
                     .init(date: .date(from: "2023-02-26T00:00:00"), value: 44)
+                ],
+            name: "Left"
+        )
+    }
+
+    static var sampleLineBalanceLeftOnePoint: LineData {
+        .init(
+            points:
+                [
+                    .init(date: .date(from: "2023-01-01T00:00:00"), value: 70)
                 ],
             name: "Left"
         )
@@ -76,6 +96,16 @@ extension LineData {
         )
     }
 
+    static var sampleLineBalanceRightOnePoint: LineData {
+        .init(
+            points:
+                [
+                    .init(date: .date(from: "2023-01-01T00:00:00"), value: 70)
+                ],
+            name: "Right"
+        )
+    }
+
     static var sampleLineJumpLoad: LineData {
         .init(
             points:
@@ -96,6 +126,16 @@ extension LineData {
                     .init(date: .date(from: "2023-02-22T00:00:00"), value: 34),
                     .init(date: .date(from: "2023-02-23T00:00:00"), value: 43),
                     .init(date: .date(from: "2023-02-26T00:00:00"), value: 24)
+                ],
+            name: "Load"
+        )
+    }
+
+    static var sampleLineJumpLoadOnePoint: LineData {
+        .init(
+            points:
+                [
+                    .init(date: .date(from: "2023-01-01T00:00:00"), value: 50)
                 ],
             name: "Load"
         )
@@ -126,6 +166,16 @@ extension LineData {
         )
     }
 
+    static var sampleLineJumpExploadOnePoint: LineData {
+        .init(
+            points:
+                [
+                    .init(date: .date(from: "2023-01-01T00:00:00"), value: 47)
+                ],
+            name: "Expload"
+        )
+    }
+
     static var sampleLineJumpDrive: LineData {
         .init(
             points:
@@ -150,7 +200,17 @@ extension LineData {
             name: "Drive"
         )
     }
-    
+
+    static var sampleLineJumpDriveOnePoint: LineData {
+        .init(
+            points:
+                [
+                    .init(date: .date(from: "2023-01-01T00:00:00"), value: 44)
+                ],
+            name: "Drive"
+        )
+    }
+
     static var sampleLineInjuryRisk: LineData {
         .init(
             points:
@@ -159,11 +219,11 @@ extension LineData {
                     .init(date: .date(from: "2023-01-03T00:00:00"), value: 4),
                     .init(date: .date(from: "2023-01-04T00:00:00"), value: 4),
                     .init(date: .date(from: "2023-01-26T00:00:00"), value: 5),
-                    .init(date: .date(from: "2023-01-27T00:00:00"), value: 6),
+                    .init(date: .date(from: "2023-01-27T00:00:00"), value: 4),
                     .init(date: .date(from: "2023-01-28T00:00:00"), value: 5),
                     .init(date: .date(from: "2023-01-29T00:00:00"), value: 3),
                     .init(date: .date(from: "2023-01-30T00:00:00"), value: 1),
-                    .init(date: .date(from: "2023-01-31T00:00:00"), value: 0),
+                    .init(date: .date(from: "2023-01-31T00:00:00"), value: 2),
                     .init(date: .date(from: "2023-02-06T00:00:00"), value: 1),
                     .init(date: .date(from: "2023-02-08T00:00:00"), value: 2),
                     .init(date: .date(from: "2023-02-12T00:00:00"), value: 3),
@@ -172,7 +232,17 @@ extension LineData {
                     .init(date: .date(from: "2023-02-23T00:00:00"), value: 3),
                     .init(date: .date(from: "2023-02-26T00:00:00"), value: 5)
                 ],
-            name: "Drive"
+            name: "Risk"
+        )
+    }
+
+    static var sampleLineInjuryRiskOnePoint: LineData {
+        .init(
+            points:
+                [
+                    .init(date: .date(from: "2023-01-01T00:00:00"), value: 5)
+                ],
+            name: "Risk"
         )
     }
 }
