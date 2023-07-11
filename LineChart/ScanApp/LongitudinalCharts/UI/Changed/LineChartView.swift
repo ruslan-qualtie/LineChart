@@ -63,6 +63,15 @@ struct LineChartView: View {
         }
     }
 
+    @ChartContentBuilder
+    private var selectedDateRule: some ChartContent {
+        if let date = selectedDate {
+            RuleMark(x: .value("Selected Date", date))
+            .foregroundStyle(Color.axisValueLabel)
+            .lineStyle(StrokeStyle(lineWidth: 1, dash: [5]))
+        }
+    }
+
     // workaround for #coverage
     public init(chartData: LineChartData, locale: Locale = .current) {
         self.chartData = chartData
@@ -81,11 +90,7 @@ struct LineChartView: View {
                     .foregroundStyle(by: line.plottableName)
                     .lineStyle(StrokeStyle(lineWidth: 2))
                 }
-                if selectedDate != nil {
-                    RuleMark(x: .value("Selected Date", selectedDate!))
-                    .foregroundStyle(Color.axisValueLabel)
-                    .lineStyle(StrokeStyle(lineWidth: 1, dash: [5]))
-                }
+                selectedDateRule
             }
             .chartForegroundStyleScale(range: chartForegroundStyleRange)
             .chartLegend(.hidden)

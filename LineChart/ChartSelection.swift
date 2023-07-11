@@ -4,14 +4,18 @@ import Charts
 struct ChartSelection: ViewModifier {
     @Binding var selectedDate: Date?
 
+    private func resetSelectedDate() {
+        selectedDate = nil
+    }
+    
     private func setSelectedDateBy(location: CGPoint, geometryProxy: GeometryProxy, chartProxy: ChartProxy) {
         let frame = geometryProxy[chartProxy.plotAreaFrame]
-        guard frame.contains(location) else {
-            selectedDate = nil
-            return
+        if frame.contains(location) {
+            let locationX = location.x - frame.origin.x
+            selectedDate = chartProxy.value(atX: locationX, as: (Date).self)
+        } else {
+            resetSelectedDate()
         }
-        let locationX = location.x - frame.origin.x
-        selectedDate = chartProxy.value(atX: locationX, as: (Date).self)
     }
 
     func body(content: Content) -> some View {
@@ -30,7 +34,7 @@ struct ChartSelection: ViewModifier {
                                 chartProxy: chartProxy
                             )
                         case .ended:
-                            selectedDate = nil
+                            resetSelectedDate()
                         }
                     }
                     #elseif os(iOS)
@@ -44,7 +48,7 @@ struct ChartSelection: ViewModifier {
                                 )
                             }
                             .onEnded { _ in
-                                selectedDate = nil
+                                resetSelectedDate()
                             },
                         including: .gesture
                     )
