@@ -21,38 +21,33 @@ struct ChartSelection: ViewModifier {
     func body(content: Content) -> some View {
         content.chartOverlay { chartProxy in
             GeometryReader { geometryProxy in
+                #if os(macOS)
                 Rectangle()
                     .fill(.clear)
                     .contentShape(Rectangle())
-                    #if os(macOS)
                     .onContinuousHover { hoverPhase in
                         switch hoverPhase {
                         case .active(let hoverLocation):
-                            setSelectedDateBy(
-                                location: hoverLocation,
-                                geometryProxy: geometryProxy,
-                                chartProxy: chartProxy
-                            )
+                            setSelectedDateBy(location: hoverLocation, geometryProxy: geometryProxy, chartProxy: chartProxy)
                         case .ended:
                             resetSelectedDate()
                         }
                     }
-                    #elseif os(iOS)
+                #elseif os(iOS)
+                Rectangle()
+                    .fill(.clear)
+                    .contentShape(Rectangle())
                     .simultaneousGesture(
                         DragGesture(minimumDistance: 0)
                             .onChanged { gestureValue in
-                                setSelectedDateBy(
-                                    location: gestureValue.location,
-                                    geometryProxy: geometryProxy,
-                                    chartProxy: chartProxy
-                                )
+                                setSelectedDateBy(location: gestureValue.location, geometryProxy: geometryProxy, chartProxy: chartProxy)
                             }
                             .onEnded { _ in
                                 resetSelectedDate()
                             },
                         including: .gesture
                     )
-                    #endif
+                #endif
             }
         }
     }
