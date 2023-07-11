@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C301F95A2A5C3FA90074696E /* ChartSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C301F9592A5C3FA90074696E /* ChartSelection.swift */; };
 		C341286E29C49AD90079300B /* PointMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341286D29C49AD90079300B /* PointMarkExampleView.swift */; };
 		C341287029C4B0D60079300B /* AreaMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341286F29C4B0D60079300B /* AreaMarkExampleView.swift */; };
 		C341287229C4B61C0079300B /* BarMarkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341287129C4B61C0079300B /* BarMarkExampleView.swift */; };
@@ -64,6 +65,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C301F9592A5C3FA90074696E /* ChartSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSelection.swift; sourceTree = "<group>"; };
 		C341286D29C49AD90079300B /* PointMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointMarkExampleView.swift; sourceTree = "<group>"; };
 		C341286F29C4B0D60079300B /* AreaMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaMarkExampleView.swift; sourceTree = "<group>"; };
 		C341287129C4B61C0079300B /* BarMarkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarMarkExampleView.swift; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				DAF29AC9298D4CB00076095B /* LineChartApp.swift */,
+				C301F9592A5C3FA90074696E /* ChartSelection.swift */,
 				C380AFA929BF5D8B000C9B27 /* ScanApp */,
 				C341287529C4C8C40079300B /* MarkExamples */,
 				DAF29ACD298D4CB10076095B /* Assets.xcassets */,
@@ -392,6 +395,7 @@
 				C3DBEE0D2A31E92700FA059C /* Icons.swift in Sources */,
 				C374BA8129C9DA1F00F659C1 /* LineChartLegendItemView.swift in Sources */,
 				C374BA8629C9E2D800F659C1 /* LineChartHeaderView.swift in Sources */,
+				C301F95A2A5C3FA90074696E /* ChartSelection.swift in Sources */,
 				C3DBEE1D2A31F37100FA059C /* ResultsHistoryView.swift in Sources */,
 				C3DBEE142A31EB7300FA059C /* FormattedResultDelta+extension.swift in Sources */,
 				C3DBEDFD2A31E3DC00FA059C /* LineData+sample.swift in Sources */,
